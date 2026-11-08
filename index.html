@@ -1,245 +1,648 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gravityless</title>
-    <style>
-      :root {
-        --bg: #050816;
-        --bg2: #0d1326;
-        --panel: rgba(18, 23, 38, 0.72);
-        --panel-border: rgba(148, 163, 184, 0.2);
-        --text: #e2e8f0;
-        --muted: #94a3b8;
-        --cyan: #67e8f9;
-        --blue: #60a5fa;
-        --purple: #a78bfa;
-        --highlight: #c4b5fd;
+<html lang="en-US" dir="ltr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Ganjagoddessai — The Universal Voice AI Budtender &amp; Spatial Ghost Commerce Engine</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="description" content="Next-generation zero-inventory eco-friendly ghost marketplace, WebXR 3D bong &amp; sticker design studio, and AI Budtender engineered by The Tek Whisperer.">
+  <meta name="keywords" content="Ganjagoddessai, GanjaGuru, ReeferDude, AI Budtender, Ghost Commerce, WebXR Cannabis Engine, 3DPoD, PoD, Sustainable Hemp, Spatial Computing">
+  <meta name="author" content="Raymond Meadows (The Tek Whisperer)">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://ganjagoddessai.com/">
+  <meta name="theme-color" content="#00D26A">
+  <meta name="color-scheme" content="dark light">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            cannabis: {
+              50: '#e6f4ed',
+              500: '#00D26A',
+              600: '#00a853',
+              900: '#0f291e',
+            }
+          }
+        }
       }
+    }
+  </script>
 
-      * { box-sizing: border-box; }
+  <!-- Three.js for 3D & WebXR Spatial Rendering -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
-      html, body {
-        margin: 0;
-        min-height: 100%;
-        font-family: Inter, "Segoe UI", sans-serif;
-        background:
-          radial-gradient(circle at top, rgba(96, 165, 250, 0.18), transparent 22%),
-          radial-gradient(circle at bottom right, rgba(167, 139, 250, 0.18), transparent 20%),
-          linear-gradient(135deg, var(--bg), var(--bg2));
-        color: var(--text);
-      }
+  <style>
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0px) scale(1) rotate(0deg); }
+      50% { transform: translateY(-16px) scale(1.06) rotate(3deg); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; filter: drop-shadow(0 0 15px rgba(0,210,106,0.4)); }
+      50% { opacity: 0.8; filter: drop-shadow(0 0 35px rgba(0,210,106,0.8)); }
+    }
+    @keyframes matrixScan {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(1000%); }
+    }
+    .floating-orb {
+      animation: floatOrb 6s ease-in-out infinite;
+    }
+    .pulse-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+    .matrix-line {
+      animation: matrixScan 4s linear infinite;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d0b;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #00D26A;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="bg-black text-white min-h-screen overflow-hidden font-sans select-none flex flex-col justify-between">
 
-      body {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        overflow: hidden;
-      }
+  <!-- ACCESSIBILITY SKIP LINK -->
+  <a href="#ai-search-input" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-emerald-500 focus:text-black focus:p-3 focus:rounded-md">Skip to AI Command Input</a>
 
-      .scene {
-        position: relative;
-        width: min(1100px, 90vw);
-        height: min(700px, 80vh);
-        border: 1px solid var(--panel-border);
-        border-radius: 28px;
-        background: rgba(10, 14, 24, 0.5);
-        box-shadow: 0 30px 60px rgba(15, 23, 42, 0.7);
-        overflow: hidden;
-        backdrop-filter: blur(12px);
-      }
+  <!-- AGE GATE OVERLAY (21+ Verification) -->
+  <div id="age-gate" class="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-2xl transition-opacity duration-700" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+    <div class="max-w-md w-full mx-4 p-8 bg-zinc-900/90 border border-emerald-500/40 rounded-3xl shadow-2xl shadow-emerald-500/30 text-center relative overflow-hidden">
+      <div class="absolute -top-12 -left-12 w-32 h-32 bg-emerald-500/20 rounded-full blur-2xl"></div>
+      <div class="absolute -bottom-12 -right-12 w-32 h-32 bg-green-500/20 rounded-full blur-2xl"></div>
+      
+      <!-- Cannabis Leaf Logo Emblem -->
+      <div class="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-emerald-400 to-green-600 rounded-2xl flex items-center justify-center shadow-[0_0_20px_rgba(0,210,106,0.6)] animate-pulse">
+        <svg class="w-12 h-12 text-black" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9 8H4L7 12L5 19L12 15L19 19L17 12L20 8H15L12 2Z"/></svg>
+      </div>
+      
+      <h2 id="age-gate-title" class="text-3xl font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-green-300 to-teal-400 uppercase font-mono">Ganjagoddessai</h2>
+      <p class="text-zinc-400 text-sm mt-2 mb-6">
+        Welcome to the ultimate AI-powered, zero-inventory eco ghost marketplace. You must be 21 or older to enter this spatial session.
+      </p>
 
-      .orb {
-        position: absolute;
-        border-radius: 50%;
-        filter: blur(1px);
-        opacity: 0.7;
-        animation: float 20s ease-in-out infinite alternate;
-      }
+      <div class="space-y-3">
+        <button id="btn-enter" class="w-full py-4 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-black font-black text-lg rounded-2xl shadow-lg shadow-emerald-500/40 transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-emerald-400">
+          🌿 I am 21+ — Enter Marketplace
+        </button>
+        <button id="btn-exit" class="w-full py-3 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-semibold text-sm rounded-2xl border border-zinc-700 transition-all">
+          Exit
+        </button>
+      </div>
+    </div>
+  </div>
 
-      .orb.one {
-        width: 260px; height: 260px;
-        top: -40px; right: 10%;
-        background: radial-gradient(circle at 30% 30%, rgba(103, 232, 249, 0.7), rgba(96, 165, 250, 0.2) 55%, transparent 70%);
-      }
+  <!-- CANVAS LAYER FOR 3D SPATIAL & SMOKE PARTICLES -->
+  <canvas id="canvas-bg" class="fixed inset-0 w-full h-full pointer-events-none z-0" aria-hidden="true"></canvas>
 
-      .orb.two {
-        width: 320px; height: 320px;
-        bottom: -90px; left: -20px;
-        background: radial-gradient(circle at 30% 30%, rgba(167, 139, 250, 0.7), rgba(96, 165, 250, 0.18) 50%, transparent 72%);
-        animation-delay: 2s;
-      }
+  <!-- TOP HEADER CONTAINER -->
+  <header class="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-6 py-4 pointer-events-auto bg-black/50 backdrop-blur-xl border-b border-emerald-500/30 shadow-[0_4px_30px_rgba(0,0,0,0.8)]">
+    <!-- LOGO & BRAND -->
+    <div class="flex items-center space-x-3 group cursor-pointer" onclick="toggleDashboardDrawer()">
+      <div class="w-11 h-11 bg-emerald-500/20 border-2 border-emerald-400/60 rounded-2xl flex items-center justify-center shadow-[0_0_15px_rgba(0,210,106,0.6)] group-hover:rotate-12 transition-all">
+        <svg class="w-6 h-6 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9 8H4L7 12L5 19L12 15L19 19L17 12L20 8H15L12 2Z"/></svg>
+      </div>
+      <div>
+        <span class="text-lg font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-300 block font-mono">GANJAGODDESSAI</span>
+        <span class="text-[10px] text-emerald-500 tracking-wider block font-mono">THE TEK WHISPERER ECO-SYSTEM</span>
+      </div>
+    </div>
 
-      .content {
-        position: relative;
-        z-index: 2;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+    <!-- CENTRAL STATUS TICKER -->
+    <div class="hidden md:flex items-center space-x-2 bg-zinc-900/80 border border-emerald-500/30 px-4 py-1.5 rounded-full text-xs font-mono text-emerald-300 shadow-[0_0_10px_rgba(0,210,106,0.2)]">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      <span>AI Budtender Online • Zero Inventory Ghost Commerce Active</span>
+    </div>
 
-      .panel {
-        width: min(760px, 82%);
-        padding: clamp(1.8rem, 3vw, 3rem);
-        border: 1px solid rgba(148, 163, 184, 0.18);
-        border-radius: 22px;
-        background: rgba(15, 23, 42, 0.35);
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
-      }
+    <!-- CONTROLS & LANGUAGE -->
+    <div class="flex items-center space-x-3">
+      <button id="btn-toggle-dashboard" onclick="toggleDashboardDrawer()" class="px-3 py-1.5 bg-zinc-900/90 hover:bg-zinc-800 border border-emerald-500/40 rounded-xl text-xs font-bold text-emerald-300 transition-all flex items-center space-x-1 shadow-[0_0_10px_rgba(0,210,106,0.2)]">
+        <span>📊 Analytics &amp; Nodes</span>
+      </button>
+      <button id="btn-toggle-ar" class="px-3 py-1.5 bg-emerald-500/20 hover:bg-emerald-500/40 border border-emerald-500/50 rounded-xl text-xs font-bold text-emerald-300 transition-all flex items-center space-x-1.5 shadow-[0_0_10px_rgba(0,210,106,0.2)]">
+        <span>🪐 WebXR AR/VR</span>
+      </button>
+      <select id="lang-select" class="bg-zinc-900/90 border border-emerald-500/40 text-emerald-300 text-xs rounded-xl px-2.5 py-1.5 focus:outline-none cursor-pointer">
+        <option value="en-US">🇺🇸 EN</option>
+        <option value="es-ES">🇪🇸 ES</option>
+        <option value="fr-FR">🇫🇷 FR</option>
+      </select>
+    </div>
+  </header>
 
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.45rem 0.9rem;
-        border-radius: 999px;
-        border: 1px solid rgba(103, 232, 249, 0.22);
-        background: rgba(103, 232, 249, 0.06);
-        color: var(--cyan);
-        text-transform: uppercase;
-        letter-spacing: 0.14em;
-        font-size: 0.68rem;
-        font-weight: 700;
-      }
+  <!-- SIDEBAR ANALYTICS / GHOST COMMERCE DRAWER -->
+  <aside id="dashboard-drawer" class="fixed top-20 right-[-420px] w-96 h-[calc(100vh-140px)] z-40 bg-zinc-950/95 border-l border-emerald-500/40 backdrop-blur-2xl shadow-2xl p-6 transition-all duration-500 overflow-y-auto flex flex-col justify-between">
+    <div>
+      <div class="flex items-center justify-between pb-4 border-b border-zinc-800 mb-4">
+        <h3 class="text-sm font-black font-mono text-emerald-400 uppercase tracking-widest flex items-center gap-2">
+          <span>⚡ Ghost Engine Telemetry</span>
+        </h3>
+        <button onclick="toggleDashboardDrawer()" class="text-zinc-400 hover:text-white font-bold">✕</button>
+      </div>
 
-      .eyebrow::before {
-        content: "";
-        width: 0.5rem; height: 0.5rem;
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--cyan), var(--purple));
-        box-shadow: 0 0 12px rgba(103, 232, 249, 0.8);
-      }
+      <!-- Live Stats Grid -->
+      <div class="grid grid-cols-2 gap-3 mb-6">
+        <div class="bg-zinc-900/80 p-3 rounded-2xl border border-emerald-500/20">
+          <span class="text-[10px] text-zinc-400 block font-mono">ACTIVE MESH NODES</span>
+          <span class="text-xl font-black text-emerald-400 font-mono">1,482</span>
+        </div>
+        <div class="bg-zinc-900/80 p-3 rounded-2xl border border-emerald-500/20">
+          <span class="text-[10px] text-zinc-400 block font-mono">ZERO-STOCK SKUS</span>
+          <span class="text-xl font-black text-green-400 font-mono">340+</span>
+        </div>
+        <div class="bg-zinc-900/80 p-3 rounded-2xl border border-emerald-500/20">
+          <span class="text-[10px] text-zinc-400 block font-mono">AR SESSIONS</span>
+          <span class="text-xl font-black text-teal-400 font-mono">89.4K</span>
+        </div>
+        <div class="bg-zinc-900/80 p-3 rounded-2xl border border-emerald-500/20">
+          <span class="text-[10px] text-zinc-400 block font-mono">CARBON OFFSET</span>
+          <span class="text-xl font-black text-emerald-300 font-mono">1.2T</span>
+        </div>
+      </div>
 
-      h1 {
-        margin: 1.25rem 0 0.8rem;
-        font-size: clamp(3rem, 7vw, 7rem);
-        line-height: 0.92;
-        letter-spacing: -0.07em;
-        font-weight: 900;
-      }
+      <!-- Active AI Budtender Presets -->
+      <h4 class="text-xs font-bold text-zinc-300 uppercase font-mono mb-3">Instant Strain &amp; Gear AI Prompts</h4>
+      <div class="space-y-2">
+        <button onclick="setAiPrompt('Design a neon-glow hemp bong with biometric LED temperature sensor')" class="w-full text-left p-2.5 bg-zinc-900 hover:bg-emerald-500/20 border border-emerald-500/30 rounded-xl text-xs text-emerald-300 transition-all font-mono">
+          🌿 Biometric Hemp Bong Customizer
+        </button>
+        <button onclick="setAiPrompt('Generate a zero-inventory organic pre-roll tin with custom holo-sticker')" class="w-full text-left p-2.5 bg-zinc-900 hover:bg-emerald-500/20 border border-emerald-500/30 rounded-xl text-xs text-emerald-300 transition-all font-mono">
+          🧪 Holo-Sticker Organic Pre-Roll Tin
+        </button>
+        <button onclick="setAiPrompt('Build a modular hydroponic grow tent climate controller UI')" class="w-full text-left p-2.5 bg-zinc-900 hover:bg-emerald-500/20 border border-emerald-500/30 rounded-xl text-xs text-emerald-300 transition-all font-mono">
+          ⛺ Hydroponic Climate Controller
+        </button>
+      </div>
+    </div>
 
-      .gradient {
-        background: linear-gradient(135deg, var(--text), #c4b5fd 40%, var(--cyan));
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-      }
+    <div class="mt-6 pt-4 border-t border-zinc-800 text-center">
+      <span class="text-[10px] text-zinc-500 font-mono">Secured by Supabase &amp; Vercel Edge Network</span>
+    </div>
+  </aside>
 
-      p {
-        max-width: 48rem;
-        margin: 0;
-        color: var(--muted);
-        font-size: clamp(1rem, 1.8vw, 1.25rem);
-        line-height: 1.7;
-      }
-
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        margin-top: 2rem;
-      }
-
-      .btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.9rem 1.5rem;
-        border-radius: 999px;
-        text-decoration: none;
-        font-weight: 700;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
-
-      .btn:hover {
-        transform: translateY(-1px);
-      }
-
-      .btn.primary {
-        background: linear-gradient(135deg, var(--cyan), var(--purple));
-        color: #0b1120;
-        box-shadow: 0 16px 32px rgba(103, 232, 249, 0.25);
-      }
-
-      .btn.secondary {
-        border: 1px solid rgba(148, 163, 184, 0.24);
-        background: rgba(15, 23, 42, 0.25);
-        color: var(--text);
-      }
-
-      .stats {
-        display: flex;
-        gap: 1.5rem;
-        flex-wrap: wrap;
-        margin-top: 2rem;
-      }
-
-      .stat {
-        min-width: 120px;
-      }
-
-      .value {
-        font-size: 1.5rem;
-        font-weight: 800;
-        color: var(--text);
-      }
-
-      .label {
-        font-size: 0.75rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--muted);
-      }
-
-      @keyframes float {
-        0% { transform: translate3d(0, 0, 0) scale(1); }
-        100% { transform: translate3d(20px, -30px, 0) scale(1.08); }
-      }
-
-      @media (max-width: 720px) {
-        .scene { height: 100vh; width: 100vw; border-radius: 0; }
-        .panel { width: 90%; }
-        .stats { gap: 1rem; }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="scene" aria-label="gravityless landing page">
-      <div class="orb one"></div>
-      <div class="orb two"></div>
-
-      <div class="content">
-        <div class="panel">
-          <div class="eyebrow">zero drag</div>
-          <h1 class="gradient">gravityless</h1>
-          <p>
-            gravity gone. immersive motion, zero weight, endless orbit. Built for ideas that float,
-            glide, and break free from the ordinary.
-          </p>
-
-          <div class="actions">
-            <a class="btn primary" href="#">Launch</a>
-            <a class="btn secondary" href="#">Explore</a>
+  <!-- MAIN SPATIAL WEBXR & INTERACTION AREA -->
+  <main class="relative w-full h-screen flex flex-col items-center justify-center z-10 pointer-events-none px-4 pt-20 pb-28">
+    
+    <!-- CENTRAL 3D / AR PREVIEW CONTAINER -->
+    <div id="spatial-workspace" class="relative w-full max-w-4xl h-[58vh] flex items-center justify-center pointer-events-auto">
+      <!-- 3D WebGL Canvas or Interactive Bong / Sticker Customizer View -->
+      <div id="three-container" class="absolute inset-0 rounded-3xl border border-emerald-500/40 bg-zinc-950/70 backdrop-blur-2xl overflow-hidden shadow-[0_0_60px_rgba(0,210,106,0.2)] flex flex-col items-center justify-center">
+        
+        <!-- Interactive 3D Product Mockup Preview State -->
+        <div id="product-preview-card" class="text-center p-8 transition-all duration-500 z-10">
+          <div class="w-40 h-40 mx-auto mb-6 bg-gradient-to-tr from-emerald-500/20 via-teal-500/30 to-green-500/20 rounded-full border-2 border-emerald-400/60 flex items-center justify-center shadow-[0_0_40px_rgba(0,210,106,0.5)] floating-orb cursor-pointer pulse-glow" title="Click to spin 3D Model" onclick="spinModelQuickly()">
+            <svg class="w-24 h-24 text-emerald-400 drop-shadow-[0_0_15px_#00D26A]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"></path></svg>
           </div>
-
-          <div class="stats" aria-label="Project details">
-            <div class="stat">
-              <div class="value">0g</div>
-              <div class="label">weight</div>
-            </div>
-            <div class="stat">
-              <div class="value">∞</div>
-              <div class="label">motion</div>
-            </div>
-            <div class="stat">
-              <div class="value">1</div>
-              <div class="label">vision</div>
-            </div>
+          <h3 class="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-green-400 to-teal-300 tracking-wider font-mono">ECO-FRIENDLY HEMP BONG &amp; DECAL STUDIO</h3>
+          <p class="text-zinc-300 text-xs sm:text-sm mt-2 max-w-lg mx-auto font-medium leading-relaxed">
+            Interact, spin, customize biodegradable parts, and apply custom stickers in real-time. Zero inventory, 100% sustainable 3D PoD.
+          </p>
+          <div class="mt-6 flex justify-center gap-4">
+            <button onclick="customizeBongBase()" class="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-black text-xs font-black tracking-wide rounded-xl shadow-lg shadow-emerald-500/30 transform hover:scale-105 transition-all">✨ Customize Base</button>
+            <button onclick="addEcoDecal()" class="px-5 py-2.5 bg-zinc-900/90 hover:bg-zinc-800 border border-emerald-500/50 text-emerald-300 text-xs font-black tracking-wide rounded-xl shadow-lg transition-all">🎨 Add Eco-Decal</button>
           </div>
         </div>
       </div>
     </div>
-  </body>
+
+    <!-- ZERO-GRAVITY SMOKE-SPAWNED FLOATING NAVIGATION ORBS CONTAINER -->
+    <div id="smoke-nodes-container" class="absolute inset-0 pointer-events-none z-20 overflow-hidden" aria-label="Floating smoke-generated navigation icons"></div>
+  </main>
+
+  <!-- BOTTOM FIXED CONTROL BAR (VOICE, TEXT INPUT, FILE BROWSER, HISTORY, UPLOAD) -->
+  <footer id="search-bar-container" class="fixed bottom-0 left-0 right-0 z-30 p-4 bg-gradient-to-t from-black via-black/95 to-transparent flex flex-col items-center pointer-events-auto">
+    
+    <!-- AI Response / File Analysis Box (Dynamic feedback overlay) -->
+    <div id="ai-feedback-box" class="w-full max-w-3xl mb-2 px-5 py-3 bg-zinc-900/95 border border-emerald-500/50 rounded-2xl text-xs text-emerald-300 font-mono shadow-[0_0_25px_rgba(0,210,106,0.25)] flex items-center justify-between backdrop-blur-2xl hidden">
+      <span id="ai-feedback-text">⚡ GanjaGuru AI: Ready for your command, voice, or dropped file...</span>
+      <button onclick="document.getElementById('ai-feedback-box').classList.add('hidden')" class="text-zinc-400 hover:text-white px-2 font-bold">✕</button>
+    </div>
+
+    <!-- COMMAND & ACTION BAR -->
+    <form id="bot-search-form" class="max-w-3xl w-full bg-zinc-950/90 border-2 border-emerald-500/70 rounded-full shadow-[0_0_40px_rgba(0,210,106,0.4)] backdrop-blur-2xl p-2.5 flex items-center space-x-2 sm:space-x-3">
+      
+      <!-- 1. Voice Control Button (Cannabis Leaf Shaped) -->
+      <button type="button" id="btn-mic" title="Voice Budtender Command" class="p-3 bg-emerald-500/20 hover:bg-emerald-500/40 text-emerald-400 border border-emerald-500/60 rounded-full focus:outline-none transition-all shadow-[0_0_15px_rgba(0,210,106,0.5)] transform hover:scale-110">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9 8H4L7 12L5 19L12 15L19 19L17 12L20 8H15L12 2Z"/></svg>
+      </button>
+
+      <!-- 2. Text Input Box with Enter Support -->
+      <div class="relative flex-grow">
+        <label for="ai-search-input" class="sr-only">Ask GanjaGuru AI Budtender or type command</label>
+        <input type="text" id="ai-search-input" placeholder="Type or speak your cannabis product vision, e.g. 'Build a green biodegradable bong with neon leaf decal'..." class="w-full bg-transparent text-white text-xs sm:text-sm placeholder-zinc-400 focus:outline-none px-2 font-medium">
+      </div>
+
+      <!-- Send Button inside input bar -->
+      <button type="submit" id="btn-send-text" title="Send Command" class="p-3 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 text-black rounded-full transition-all shadow-md transform hover:scale-110">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18"></path></svg>
+      </button>
+
+      <!-- Divider -->
+      <div class="h-6 w-px bg-zinc-800"></div>
+
+      <!-- 3. File System Browser Button (Bud Cluster Icon) -->
+      <button type="button" id="btn-browse-fs" title="Browse Local Workspace &amp; Drive" class="p-2.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-emerald-500/50 text-emerald-400 rounded-full transition-all flex items-center justify-center transform hover:scale-110">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+      </button>
+
+      <!-- 4. History Button (Coiled Stem Icon) -->
+      <button type="button" id="btn-history" title="View Concept History &amp; Scores" class="p-2.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-emerald-500/50 text-emerald-400 rounded-full transition-all flex items-center justify-center transform hover:scale-110">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </button>
+
+      <!-- 5. Upload Button (Seed Pod Icon) -->
+      <label for="file-upload-input" title="Upload File for AI Analysis" class="p-2.5 bg-emerald-500/20 hover:bg-emerald-500/40 border border-emerald-500/60 text-emerald-300 rounded-full cursor-pointer transition-all flex items-center justify-center shadow-[0_0_12px_rgba(0,210,106,0.3)] transform hover:scale-110">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+        <input type="file" id="file-upload-input" class="hidden">
+      </label>
+
+    </form>
+    
+    <!-- Footer Credits -->
+    <div class="mt-2.5 text-[10px] text-zinc-400 font-mono tracking-widest text-center uppercase">
+      GANJAGODDESSAI • ZERO INVENTORY • ECO 3D POD • POWERED BY THE TEK WHISPERER
+    </div>
+  </footer>
+
+  <!-- ADVANCED WEBXR & THREE.JS 3D / AR ENGINE + MULTIMODAL AI SPEECH & BRAIN ENGINE -->
+  <script>
+    // Global helper functions for UI drawers & prompts
+    function toggleDashboardDrawer() {
+      const drawer = document.getElementById('dashboard-drawer');
+      if (drawer) {
+        if (drawer.style.right === '0px') {
+          drawer.style.right = '-420px';
+        } else {
+          drawer.style.right = '0px';
+        }
+      }
+    }
+
+    function setAiPrompt(text) {
+      const input = document.getElementById('ai-search-input');
+      if (input) {
+        input.value = text;
+        input.focus();
+      }
+      toggleDashboardDrawer();
+    }
+
+    let bongMesh, sceneRef, rendererRef;
+    function spinModelQuickly() {
+      if (bongMesh) {
+        bongMesh.rotation.y += Math.PI / 2;
+      }
+    }
+
+    function customizeBongBase() {
+      const feedbackBox = document.getElementById('ai-feedback-box');
+      const feedbackText = document.getElementById('ai-feedback-text');
+      if (feedbackBox && feedbackText) {
+        feedbackBox.classList.remove('hidden');
+        feedbackText.textContent = `✨ Hemp base material updated to Recycled Ocean Bio-Plastics. Zero inventory order queued!`;
+      }
+      if (bongMesh) {
+        bongMesh.material.color.setHex(Math.random() > 0.5 ? 0x00ff88 : 0x00cc44);
+      }
+    }
+
+    function addEcoDecal() {
+      const feedbackBox = document.getElementById('ai-feedback-box');
+      const feedbackText = document.getElementById('ai-feedback-text');
+      if (feedbackBox && feedbackText) {
+        feedbackBox.classList.remove('hidden');
+        feedbackText.textContent = `🎨 Holographic 'Tek Whisperer' leaf decal mapped to 3D UV coordinates successfully!`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Age Gate Verification
+      const ageGate = document.getElementById('age-gate');
+      const btnEnter = document.getElementById('btn-enter');
+      const btnExit = document.getElementById('btn-exit');
+
+      if (localStorage.getItem('ganjagoddessai_verified') === 'true') {
+        if (ageGate) ageGate.classList.add('hidden');
+      }
+
+      if (btnEnter) {
+        btnEnter.addEventListener('click', () => {
+          localStorage.setItem('ganjagoddessai_verified', 'true');
+          if (ageGate) {
+            ageGate.style.opacity = '0';
+            setTimeout(() => ageGate.classList.add('hidden'), 700);
+          }
+        });
+      }
+
+      if (btnExit) {
+        btnExit.addEventListener('click', () => {
+          window.location.href = 'https://google.com';
+        });
+      }
+
+      // 2. Interactive Smoke & Starry Canvas Background Engine
+      const canvas = document.getElementById('canvas-bg');
+      const ctx = canvas.getContext('2d');
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      const particles = Array.from({ length: 95 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        radius: Math.random() * 4 + 1,
+        vx: (Math.random() - 0.5) * 0.5,
+        vy: -Math.random() * 1.8 - 0.4,
+        alpha: Math.random() * 0.7 + 0.2,
+        color: Math.random() > 0.2 ? '#00D26A' : '#ffffff'
+      }));
+
+      function animateCanvas() {
+        ctx.clearRect(0, 0, width, height);
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.y < 0) {
+            p.y = height;
+            p.x = Math.random() * width;
+          }
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+          ctx.fillStyle = p.color;
+          ctx.globalAlpha = p.alpha;
+          ctx.fill();
+        });
+        requestAnimationFrame(animateCanvas);
+      }
+      animateCanvas();
+
+      // 3. Smoke-Spawned & Colliding Zero-Gravity Floating Navigation Orbs Engine
+      const container = document.getElementById('smoke-nodes-container');
+      const navItems = [
+        { name: 'AI Budtender', url: '#budtender', icon: '🌿' },
+        { name: 'Custom Bong 3D', url: '#bong-studio', icon: '🧪' },
+        { name: 'Eco Decal PoD', url: '#decal-pod', icon: '🎨' },
+        { name: 'Ghost Delivery', url: '#delivery', icon: '🚀' },
+        { name: 'Grow Tent AR', url: '#grow-ar', icon: '⛺' }
+      ];
+
+      const nodes = [];
+      const originX = window.innerWidth / 2;
+      const originY = window.innerHeight / 2 - 50;
+
+      navItems.forEach((item, index) => {
+        const el = document.createElement('div');
+        el.className = 'absolute pointer-events-auto flex flex-col items-center group cursor-grab active:cursor-grabbing';
+        el.style.width = '75px';
+        el.style.height = '85px';
+        el.innerHTML = `
+          <div class="w-14 h-14 bg-zinc-900/90 border-2 border-emerald-400 rounded-2xl flex items-center justify-center shadow-[0_0_20px_rgba(0,210,106,0.6)] group-hover:scale-125 transition-transform backdrop-blur-md text-2xl">
+            ${item.icon}
+          </div>
+          <span class="text-[10px] font-bold text-emerald-300 mt-1 bg-black/80 px-2 py-0.5 rounded backdrop-blur border border-emerald-500/30 whitespace-nowrap font-mono">${item.name}</span>
+        `;
+        container.appendChild(el);
+
+        const angle = (index / navItems.length) * Math.PI * 2;
+        const speed = Math.random() * 1.2 + 0.8;
+
+        const node = {
+          el,
+          x: originX + (Math.cos(angle) * 160),
+          y: originY + (Math.sin(angle) * 120),
+          vx: Math.cos(angle) * speed,
+          vy: Math.sin(angle) * speed,
+          radius: 35,
+          isHeld: false,
+          url: item.url
+        };
+
+        let startX, startY, pointerId;
+        el.addEventListener('pointerdown', e => {
+          node.isHeld = true;
+          pointerId = e.pointerId;
+          el.setPointerCapture(pointerId);
+          startX = e.clientX;
+          startY = e.clientY;
+          node.vx = 0;
+          node.vy = 0;
+        });
+
+        el.addEventListener('pointermove', e => {
+          if (!node.isHeld) return;
+          const dx = e.clientX - startX;
+          const dy = e.clientY - startY;
+          startX = e.clientX;
+          startY = e.clientY;
+          node.x += dx;
+          node.y += dy;
+          node.vx = dx * 0.45;
+          node.vy = dy * 0.45;
+        });
+
+        el.addEventListener('pointerup', e => {
+          if (!node.isHeld) return;
+          node.isHeld = false;
+          el.releasePointerCapture(pointerId);
+        });
+
+        nodes.push(node);
+      });
+
+      function updatePhysics() {
+        const maxX = window.innerWidth - 80;
+        const maxY = window.innerHeight - 150;
+
+        nodes.forEach((node, i) => {
+          if (!node.isHeld) {
+            node.x += node.vx;
+            node.y += node.vy;
+
+            node.vx *= 0.99;
+            node.vy *= 0.99;
+
+            if (node.x < 20) { node.x = 20; node.vx *= -1; }
+            if (node.x > maxX) { node.x = maxX; node.vx *= -1; }
+            if (node.y < 80) { node.y = 80; node.vy *= -1; }
+            if (node.y > maxY) { node.y = maxY; node.vy *= -1; }
+
+            for (let j = i + 1; j < nodes.length; j++) {
+              const other = nodes[j];
+              const dx = other.x - node.x;
+              const dy = other.y - node.y;
+              const dist = Math.hypot(dx, dy);
+              const minDist = node.radius + other.radius;
+
+              if (dist < minDist) {
+                const overlap = 0.5 * (minDist - dist);
+                const nx = dx / (dist || 1);
+                const ny = dy / (dist || 1);
+
+                if (!node.isHeld) { node.x -= nx * overlap; node.y -= ny * overlap; }
+                if (!other.isHeld) { other.x += nx * overlap; other.y += ny * overlap; }
+
+                const kx = node.vx - other.vx;
+                const ky = node.vy - other.vy;
+                const p = 2 * (nx * kx + ny * ky) / 2;
+
+                if (!node.isHeld) { node.vx -= p * nx * 0.85; node.vy -= p * ny * 0.85; }
+                if (!other.isHeld) { other.vx += p * nx * 0.85; other.vy += p * ny * 0.85; }
+              }
+            }
+          }
+          node.el.style.transform = `translate(${node.x}px, ${node.y}px)`;
+        });
+        requestAnimationFrame(updatePhysics);
+      }
+      updatePhysics();
+
+      // 4. Advanced Three.js 3D WebGL Viewer Integration inside the Studio Container
+      const threeContainer = document.getElementById('three-container');
+      
+      function initThreeScene() {
+        if (!threeContainer) return;
+        
+        sceneRef = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(45, threeContainer.clientWidth / threeContainer.clientHeight, 0.1, 1000);
+        camera.position.z = 6;
+
+        rendererRef = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        rendererRef.setSize(threeContainer.clientWidth, threeContainer.clientHeight);
+        rendererRef.setPixelRatio(window.devicePixelRatio);
+        
+        rendererRef.domElement.id = 'three-canvas';
+        rendererRef.domElement.style.position = 'absolute';
+        rendererRef.domElement.style.inset = '0';
+        rendererRef.domElement.style.zIndex = '0';
+        rendererRef.domElement.style.pointerEvents = 'auto';
+        threeContainer.appendChild(rendererRef.domElement);
+
+        // Create a stylized biodegradable hemp bong 3D geometry representation
+        const geometry = new THREE.CylinderGeometry(0.6, 1.2, 3.5, 32);
+        const material = new THREE.MeshStandardMaterial({ 
+          color: 0x00D26A, 
+          roughness: 0.3, 
+          metalness: 0.8,
+          wireframe: false 
+        });
+        bongMesh = new THREE.Mesh(geometry, material);
+        sceneRef.add(bongMesh);
+
+        // Add lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+        sceneRef.add(ambientLight);
+
+        const pointLight = new THREE.PointLight(0x00D26A, 2, 50);
+        pointLight.position.set(5, 5, 5);
+        sceneRef.add(pointLight);
+
+        function animateThree() {
+          requestAnimationFrame(animateThree);
+          if (bongMesh) {
+            bongMesh.rotation.y += 0.008;
+            bongMesh.rotation.x = Math.sin(Date.now() * 0.002) * 0.1;
+          }
+          rendererRef.render(sceneRef, camera);
+        }
+        animateThree();
+      }
+      initThreeScene();
+
+      // 5. Command Form & File Upload Handlers with Dopamine Feedback
+      const form = document.getElementById('bot-search-form');
+      const input = document.getElementById('ai-search-input');
+      const feedbackBox = document.getElementById('ai-feedback-box');
+      const feedbackText = document.getElementById('ai-feedback-text');
+      const fileInput = document.getElementById('file-upload-input');
+
+      if (form) {
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          const query = input.value.trim();
+          if (query) {
+            feedbackBox.classList.remove('hidden');
+            feedbackText.textContent = `⚡ GanjaGuru AI: Processing command -> "${query}" ... Auto-procuring eco materials & dispatching 3DPoD queue!`;
+            input.value = '';
+          }
+        });
+      }
+
+      if (fileInput) {
+        fileInput.addEventListener('change', (e) => {
+          const file = e.target.files[0];
+          if (file) {
+            feedbackBox.classList.remove('hidden');
+            feedbackText.textContent = `📂 Analyzed uploaded file: "${file.name}" (${Math.round(file.size/1024)} KB). Purpose: 3D model / decal mapping. Automated ghost drop-shipping pipeline engaged!`;
+          }
+        });
+      }
+
+      // Voice Button Speech Recognition integration (Web Speech API)
+      const btnMic = document.getElementById('btn-mic');
+      if (btnMic) {
+        btnMic.addEventListener('click', () => {
+          feedbackBox.classList.remove('hidden');
+          if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+            recognition.lang = 'en-US';
+            recognition.start();
+            feedbackText.textContent = `🎙️ Listening... Speak your cannabis design or ghost commerce command, family!`;
+            
+            recognition.onresult = (event) => {
+              const speechToText = event.results[0][0].transcript;
+              feedbackText.textContent = `🎙️ Heard: "${speechToText}" — Executing neural AI command...`;
+              input.value = speechToText;
+            };
+          } else {
+            feedbackText.textContent = `🎙️ Voice listening active (Simulation mode): Ready for your voice command!`;
+          }
+        });
+      }
+
+      // Browser FS simulation
+      const btnBrowse = document.getElementById('btn-browse-fs');
+      if (btnBrowse) {
+        btnBrowse.addEventListener('click', () => {
+          feedbackBox.classList.remove('hidden');
+          feedbackText.textContent = `📁 Workspace Virtual Drive opened: /workspace/ganjagoddessai/assets/ (Ready for local file ingestion & WebXR preview)`;
+        });
+      }
+
+      // History button simulation
+      const btnHistory = document.getElementById('btn-history');
+      if (btnHistory) {
+        btnHistory.addEventListener('click', () => {
+          feedbackBox.classList.remove('hidden');
+          feedbackText.textContent = `🕒 Loaded concept history: 3 custom hemp bongs designed, 2 eco decals mapped, zero inventory items stored, $420 ghost commission credited.`;
+        });
+      }
+
+      // WebXR AR Toggle simulation
+      const btnToggleAr = document.getElementById('btn-toggle-ar');
+      if (btnToggleAr) {
+        btnToggleAr.addEventListener('click', () => {
+          feedbackBox.classList.remove('hidden');
+          feedbackText.textContent = `🪐 WebXR AR Session requested: Point your camera at any surface to place your custom 3D biodegradable bong in your real-world space!`;
+        });
+      }
+    });
+  </script>
+</body>
 </html>
