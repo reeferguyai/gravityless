@@ -1,1768 +1,427 @@
 <div align="center">
 
-# 🌿⚡ REEFERDUDE × POTGROWHUB ⚡🌿
+# 🌿 REEFERDUDE.COM
 
-### *The Universal Socket for Cannabis*
+### *The Universal Socket — Grow · Create · Learn · Connect*
 
-<img src="https://img.shields.io/badge/🌿_BORN_OF_EARTH-0B3D2E?style=for-the-badge" alt="Born of Earth" />
-<img src="https://img.shields.io/badge/⚡_FORGED_IN_CODE-FFBF00?style=for-the-badge" alt="Forged in Code" />
-<img src="https://img.shields.io/badge/🔌_PLUG._PLAY._PUFF._REPEAT.-00D26A?style=for-the-badge" alt="Plug Play Puff Repeat" />
+**A founder-owned project blueprint for a connected, evidence-first platform.**
 
-<br/>
-
-![Status](https://img.shields.io/badge/Status-Building-00D26A?style=flat-square)
-![Flagship](https://img.shields.io/badge/Flagship-reeferdude.com-FFBF00?style=flat-square)
-![Engine](https://img.shields.io/badge/Engine-potgrowhub.store-38d39f?style=flat-square)
-![Budget](https://img.shields.io/badge/Budget-%240%20Build-6B46C1?style=flat-square)
-![Team](https://img.shields.io/badge/Team-2%20Founders-FF8A3D?style=flat-square)
-![Age Gate](https://img.shields.io/badge/Audience-18%2B%20%2F%2021%2B%20(see%20Decisions)-DC143C?style=flat-square)
-![License](https://img.shields.io/badge/License-Proprietary-C0C0C0?style=flat-square)
-
-<br/>
-
-> **"Don't search for the thing. Tell The Socket what you're trying to accomplish."**
->
-> One platform. One destination. An AI budtender who never invents facts, a design studio that
-> shows your idea in your own room before it's made, and a commerce engine that holds **zero
-> inventory** — it finds it, checks it, and gets it made or shipped only when you actually want it.
-
-<br/>
-
-| 🔌 [The Vision](#-1--the-vision-in-one-breath) | 🗺️ [Table of Contents](#-table-of-contents) | 🎨 [Brand System](#-7--brand-system--colors-fonts-emoji) | 🧩 [Modules](#-5--the-13-modules-one-destination) | 📖 [Glossary](#-16--glossary--the-brand-dictionary) | ❓ [FAQ](#-17--faq) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+[Vision](#part-i--vision-brand--identity) · [Engineering](#part-ii--engineering--infrastructure) · [Commerce](#part-iii--commerce--revenue-operations) · [AI](#part-iv--ai-intelligence--automation) · [Growth](#part-v--growth-ownership--long-term-value)
 
 </div>
 
-### 🏷️ Tag Cloud — Everything This Document Covers
+---
 
-![cannabis-tech](https://img.shields.io/badge/-cannabis--tech-00D26A?style=flat-square)
-![hemp-commerce](https://img.shields.io/badge/-hemp--commerce-0B3D2E?style=flat-square)
-![ai-budtender](https://img.shields.io/badge/-ai--budtender-7A3FF2?style=flat-square)
-![gravity-gone](https://img.shields.io/badge/-gravity--gone-FFBF00?style=flat-square)
-![spatial-ui](https://img.shields.io/badge/-spatial--ui-00D9FF?style=flat-square)
-![ghost-commerce](https://img.shields.io/badge/-ghost--commerce-38d39f?style=flat-square)
-![zero-inventory](https://img.shields.io/badge/-zero--inventory-121212?style=flat-square)
-![3dpod](https://img.shields.io/badge/-3dpod-FF8A3D?style=flat-square)
-![print-on-demand](https://img.shields.io/badge/-print--on--demand-FF8A3D?style=flat-square)
-![ar-vr](https://img.shields.io/badge/-ar%2Fvr-00D9FF?style=flat-square)
-![strain-lab](https://img.shields.io/badge/-strain--lab-00D26A?style=flat-square)
-![grow-tech](https://img.shields.io/badge/-grow--tech-0B3D2E?style=flat-square)
-![verified-knowledge](https://img.shields.io/badge/-verified--knowledge-FFD700?style=flat-square)
-![compliance-engine](https://img.shields.io/badge/-compliance--engine-DC143C?style=flat-square)
-![eco-only](https://img.shields.io/badge/-eco--only-2E8B57?style=flat-square)
-![seo](https://img.shields.io/badge/-seo-6B46C1?style=flat-square)
-![aeo](https://img.shields.io/badge/-aeo-6B46C1?style=flat-square)
-![gamification](https://img.shields.io/badge/-gamification-FFBF00?style=flat-square)
-![pwa](https://img.shields.io/badge/-pwa-121212?style=flat-square)
-![multi-tenant](https://img.shields.io/badge/-multi--tenant-38d39f?style=flat-square)
-![postgresql](https://img.shields.io/badge/-postgresql-336791?style=flat-square)
-![react](https://img.shields.io/badge/-react-61DAFB?style=flat-square)
-![threejs](https://img.shields.io/badge/-three.js-black?style=flat-square)
-![voice-ai](https://img.shields.io/badge/-voice--ai-7A3FF2?style=flat-square)
-![mythology](https://img.shields.io/badge/-mythology-5C3A21?style=flat-square)
-![small-team](https://img.shields.io/badge/-two--founders-C0C0C0?style=flat-square)
-![ohio](https://img.shields.io/badge/-warren--county--ohio-BB0000?style=flat-square)
+## About this README
 
-`#ReeferDude` `#PotGrowHub` `#TheSocket` `#GanjaGuru` `#KaliKush` `#GanjaGroot`
-`#GhostCommerce` `#DreamItStudio` `#GravityGone` `#SeedToSmoke` `#PlugPlayPuffRepeat`
-`#BornOfEarthForgedInCode` `#KnowledgeFirstHypeSecond` `#Budz` `#KushCoin` `#PuffQuest`
+This README reorganizes the ReeferDude × PotGrowHub project material into the requested 64-section master structure. It is the project's map, not a claim that every planned feature is implemented or deployed. Keep status, evidence, and founder decisions explicit; build a small working product before expanding the page universe.
+
+**North Star:** Help people move from an idea to a useful, verified next step.  
+**Operating rule:** Trust before traffic. Evidence before claims. Human approval before money moves.
+
+## Contents
+
+### Part I · Vision, Brand & Identity
+
+1. [🌌 The Vision in One Breath](#1--the-vision-in-one-breath)
+2. [🏷️ Naming: Who Is Who](#2--naming-who-is-who)
+3. [👥 Founders, Audience & The Three Doors](#3--founders-audience--the-three-doors)
+4. [🪐 Gravity-Gone: The Arrival Experience](#4--gravity-gone-the-arrival-experience)
+5. [🧩 The 13 Modules](#5--the-13-modules)
+6. [🔌 The Socket: Service Flow](#6--the-socket-service-flow)
+7. [🎨 Brand System: Colors, Fonts & Emoji](#7--brand-system-colors-fonts--emoji)
+8. [📚 Knowledge Rules: The AI Never Invents](#8--knowledge-rules-the-ai-never-invents)
+9. [👻 Ghost Commerce: Zero-Inventory Engine](#9--ghost-commerce-zero-inventory-engine)
+10. [⚖️ Compliance: Blocked, Not Disclaimed](#10--compliance-blocked-not-disclaimed)
+11. [💰 Business Model & Money Map](#11--business-model--money-map)
+12. [🔍 SEO / AEO: The Money Loop](#12--seo--aeo-the-money-loop)
+13. [🛠️ Tech Stack & Platform Status](#13--tech-stack--platform-status)
+14. [🗓️ Roadmap & Do-Not-Build List](#14--roadmap--do-not-build-list)
+15. [⚖️ Open Decisions: Ray's Calls](#15--open-decisions-rays-calls)
+16. [📖 Glossary: The Brand Dictionary](#16--glossary-the-brand-dictionary)
+17. [❓ FAQ](#17--faq)
+18. [🔗 Link Directory](#18--link-directory)
+19. [📍 Honest Status: What Is Actually Live](#19--honest-status-what-is-actually-live)
+20. [✍️ Credits, Ownership & Footer](#20--credits-ownership--footer)
+21. [📜 The Mythology: The Modern Outlaw & The Green Grid](#21--the-mythology-the-modern-outlaw--the-green-grid)
+22. [🎭 The Persona Council: Who's on the AI Team](#22--the-persona-council-whos-on-the-ai-team)
+23. [🎨 Dream-It Studio: Deep Dive](#23--dream-it-studio-deep-dive)
+24. [🧬 Strain Lab: Deep Dive](#24--strain-lab-deep-dive)
+25. [🎮 Gamification System: Full Specification](#25--gamification-system-full-specification)
+26. [👑 Membership: Tier Deep Dive](#26--membership-tier-deep-dive)
+27. [🗺️ The Page Universe: Full Inventory](#27--the-page-universe-full-inventory)
+28. [📁 Root Files Cookbook](#28--root-files-cookbook)
+29. [♿ Accessibility & Inclusion Standard](#29--accessibility--inclusion-standard)
+30. [🔐 Security, Privacy & Trust](#30--security-privacy--trust)
+31. [📊 Analytics & The Owner Dashboard](#31--analytics--the-owner-dashboard)
+32. [📣 Community & Content Engine](#32--community--content-engine)
+33. [🥊 Competitive Landscape](#33--competitive-landscape)
+34. [⚠️ Risk Register & Kill Criteria](#34--risk-register--kill-criteria)
+
+### Part II · Engineering & Infrastructure
+
+35. [🏗️ Complete System Architecture](#35--complete-system-architecture)
+36. [📂 Master File & Folder Architecture](#36--master-file--folder-architecture)
+37. [🧠 AI Agent Architecture & Orchestration](#37--ai-agent-architecture--orchestration)
+38. [🔌 API & Integration Directory](#38--api--integration-directory)
+39. [🗄️ Database & Data Architecture](#39--database--data-architecture)
+40. [☁️ Hosting, Deployment & Infrastructure](#40--hosting-deployment--infrastructure)
+41. [🔄 Offline-First & Synchronization Engine](#41--offline-first--synchronization-engine)
+42. [🧪 Testing, QA & Quality Assurance](#42--testing-qa--quality-assurance)
+43. [🛡️ DevOps, Monitoring & Disaster Recovery](#43--devops-monitoring--disaster-recovery)
+
+### Part III · Commerce & Revenue Operations
+
+44. [🛒 Complete Commerce & Order Lifecycle](#44--complete-commerce--order-lifecycle)
+45. [🤝 Supplier & Vendor Network](#45--supplier--vendor-network)
+46. [📦 Product Catalog & Inventory Intelligence](#46--product-catalog--inventory-intelligence)
+47. [💳 Payments, Payouts & Financial Operations](#47--payments-payouts--financial-operations)
+48. [🧾 Affiliate, Referral & Partnership Engine](#48--affiliate-referral--partnership-engine)
+49. [📈 Revenue Attribution & Profitability](#49--revenue-attribution--profitability)
+50. [🎯 Customer Relationship Management](#50--customer-relationship-management)
+
+### Part IV · AI Intelligence & Automation
+
+51. [🤖 AI Gateway, Models & Provider Management](#51--ai-gateway-models--provider-management)
+52. [🧠 AI Memory, Context & Personalization](#52--ai-memory-context--personalization)
+53. [⚙️ Autonomous Workflow & Automation Engine](#53--autonomous-workflow--automation-engine)
+54. [📚 Knowledge Base & RAG Infrastructure](#54--knowledge-base--rag-infrastructure)
+55. [🎙️ Voice, Speech & Multimodal Intelligence](#55--voice-speech--multimodal-intelligence)
+
+### Part V · Growth, Ownership & Long-Term Value
+
+56. [🚀 MVP Scope & Acceptance Criteria](#56--mvp-scope--acceptance-criteria)
+57. [🧭 User Journeys & Experience Blueprints](#57--user-journeys--experience-blueprints)
+58. [📣 Marketing, Acquisition & Retention Engine](#58--marketing-acquisition--retention-engine)
+59. [🌍 Expansion, Localization & Internationalization](#59--expansion-localization--internationalization)
+60. [💎 Intellectual Property & Platform Defensibility](#60--intellectual-property--platform-defensibility)
+61. [📋 Standard Operating Procedures & Administration](#61--standard-operating-procedures--administration)
+62. [📊 Scalability, Capacity & Performance Engineering](#62--scalability-capacity--performance-engineering)
+63. [🏆 Valuation, Strategic Partnerships & Exit Strategy](#63--valuation-strategic-partnerships--exit-strategy)
+64. [🧾 Master Documentation & Change Management](#64--master-documentation--change-management)
 
 ---
 
-## 📑 Table of Contents
+# Part I · Vision, Brand & Identity
 
-| # | Section | # | Section |
-|:-:|---------|:--:|---------|
-| 1 | [🌌 The Vision in One Breath](#-1--the-vision-in-one-breath) | 18 | [🔗 Link Directory](#-18--link-directory) |
-| 2 | [🏷️ Naming — Who Is Who](#-2--naming--who-is-who) | 19 | [📍 Honest Status — What Is Actually Live](#-19--honest-status--what-is-actually-live) |
-| 3 | [👥 Founders, Audience & The Three Doors](#-3--founders-audience--the-three-doors) | 20 | [✍️ Credits, Ownership & Footer](#-20--credits-ownership--footer) |
-| 4 | [🪐 Gravity-Gone — The Arrival Experience](#-4--gravity-gone--the-arrival-experience) | 21 | [📜 The Mythology — The Modern Outlaw & The Green Grid](#-21--the-mythology--the-modern-outlaw--the-green-grid) |
-| 5 | [🧩 The 13 Modules](#-5--the-13-modules-one-destination) | 22 | [🎭 The Persona Council — Who’s on the AI Team](#-22--the-persona-council--whos-on-the-ai-team) |
-| 6 | [🔌 The Socket — Service Flow](#-6--the-socket--service-flow) | 23 | [🎨 Dream-It Studio — Deep Dive](#-23--dream-it-studio--deep-dive) |
-| 7 | [🎨 Brand System — Colors, Fonts, Emoji](#-7--brand-system--colors-fonts-emoji) | 24 | [🧬 Strain Lab — Deep Dive](#-24--strain-lab--deep-dive) |
-| 8 | [📚 Knowledge Rules — The AI Never Invents](#-8--knowledge-rules--the-ai-never-invents) | 25 | [🎮 Gamification System — Full Spec](#-25--gamification-system--full-spec) |
-| 9 | [👻 Ghost Commerce — Zero-Inventory Engine](#-9--ghost-commerce--the-zero-inventory-engine) | 26 | [👑 Membership — Tier Deep Dive](#-26--membership--tier-deep-dive) |
-| 10 | [⚖️ Compliance — Blocked, Not Disclaimed](#-10--compliance--blocked-not-disclaimed) | 27 | [🗺️ The Page Universe — Full Inventory](#-27--the-page-universe--full-inventory) |
-| 11 | [💰 Business Model & Money Map](#-11--business-model--money-map) | 28 | [📁 Root Files Cookbook](#-28--root-files-cookbook) |
-| 12 | [🔍 SEO / AEO — The Money Loop](#-12--seo--aeo--the-money-loop) | 29 | [♿ Accessibility & Inclusion Standard](#-29--accessibility--inclusion-standard) |
-| 13 | [🛠️ Tech Stack & Platform Status](#-13--tech-stack--platform-status) | 30 | [🔐 Security, Privacy & Trust](#-30--security-privacy--trust) |
-| 14 | [🗓️ Roadmap & Do-Not-Build List](#-14--roadmap--do-not-build-list) | 31 | [📊 Analytics & The Owner Dashboard](#-31--analytics--the-owner-dashboard) |
-| 15 | [⚖️ Open Decisions — Ray’s Calls](#-15--open-decisions--rays-calls) | 32 | [📣 Community & Content Engine](#-32--community--content-engine) |
-| 16 | [📖 Glossary — The Brand Dictionary](#-16--glossary--the-brand-dictionary) | 33 | [🥊 Competitive Landscape](#-33--competitive-landscape) |
-| 17 | [❓ FAQ](#-17--faq) | 34 | [⚠️ Risk Register & Kill Criteria](#-34--risk-register--kill-criteria) |
+## 1 · The Vision in One Breath
 
----
+**ReeferDude is the public front door. PotGrowHub is the shared platform engine. The Socket is the connected journey.** A visitor brings an idea—learn, grow, create, or build a business—and gets a practical next step backed by clear information. The ambition is one connected destination, developed with discipline rather than hype.
 
-## 🌌 1 · The Vision in One Breath
+## 2 · Naming: Who Is Who
 
-**ReeferDude is the front door. PotGrowHub is the engine under it. The Socket is the idea.**
-
-A visitor arrives with a thought — *"I want to grow something,"* *"I want to design something,"*
-*"I want to sell something"* — and the platform walks it all the way home:
-
-```text
-💡 IDEA ──► 🧠 UNDERSTAND ──► 🗺️ PLAN ──► 🎨 DESIGN ──► 👓 SEE IT (AR/VR)
-                                                              │
-        🔁 LEARN ◄── 🚚 DELIVER ◄── 📦 SHIP ◄── 🏭 MAKE ◄── 🌱 SOURCE IT
-                      │
-                      └──► 💸 SELL IT ──► 🔁 REPEAT
-```
-
-| Pillar | Plain-words meaning |
-|--------|---------------------|
-| 🌱 **Seed to Smoke** | The whole journey, first spark to finished result — not one slice of it |
-| 🤖 **AI that doesn't bluff** | The assistant answers from checked facts, labels its guesses, and says "I don't know" out loud |
-| 👻 **Zero inventory** | Nothing sits on a shelf hoping to sell. Demand comes first; making and buying happen after |
-| 🌍 **Eco-only sourcing** | If a supplier can't prove the green claim, the product doesn't get offered. No exceptions |
-| 🕹️ **A place, not a page** | Gravity-Gone: a living space you move through, with the Goddess at the center and smoke for a menu |
-| 🏠 **Built for Bella** | The long game: a real business asset, built disciplined, that outlasts a hype cycle |
-
-> **North Star:** *Make the cannabis journey connected.*
-> **Governing principle:** *PotGrowHub is the shared intelligence, commerce, and automation
-> infrastructure that allows independent brands, merchants, and creators to operate through
-> one connected platform.*
-> **Positioning line:** *AI-powered commerce and business automation for specialty retail,
-> creators, and compliant hemp and lifestyle businesses.*
-
-<details>
-<summary><b>🧭 The guiding principles (click to open)</b></summary>
-
-| Principle | Source voice |
-|-----------|--------------|
-| "Dream wild. Build disciplined." | Founder rule |
-| "Don't automate chaos." | Founder rule |
-| "Make it useful. Make it beautiful. Make it yours." | Founder rule |
-| "Knowledge first. Hype second." | GanjaGuru catchphrase |
-| "Don't guess when we can verify." | GanjaGuru catchphrase |
-| "Trust before traffic." | Master Blueprint decision rule |
-| "Evidence before 'eco'." | Master Blueprint decision rule |
-| "If you can't inspect it, test it, and understand it — you don't really own it." | Brand story |
-
-</details>
-
-### The Pitch at Three Lengths
-
-| Length | The pitch |
-|--------|-----------|
-| 🫁 **One breath** | "Tell it what you're trying to accomplish — it plans it, designs it, shows it to you in your own room, sources it eco-only, and gets it made or delivered. No shelves, no bluffing, no maze." |
-| 🎤 **30 seconds** | "Cannabis shouldn't be a maze. ReeferDude turns the maze into a map. You bring an idea — grow it, make it, sell it — and The Socket carries it: an AI guide that answers only from checked facts, a studio that shows your design in AR before it's real, and a commerce engine with zero inventory that finds and makes things only when real people want them." |
-| 🚫 **What it is NOT** | Not a dispensary · not a plain marketplace · not a chatbot toy · not a hype page · not five websites wearing one coat |
-
-### The Master Loop (the whole business in one ring)
-
-```text
-        💡 IDEA → 🧠 AI → 🎨 DESIGN → 👓 AR/VR → 🌱 SOURCE
-          ↑                                          ↓
-        🔁 REPEAT ← 📚 LEARN ← 🎉 EXPERIENCE ← 🚚 DELIVER
-                        ↑                            ↓
-                     🔄 EVOLVE ← 💸 SELL ← 📦 SHIP ← 🏭 MAKE
-```
-
----
-
-## 🏷️ 2 · Naming — Who Is Who
-
-> ⚠️ **One destination rule:** customers experience **ONE** place — **ReeferDude**.
-> Every other name below is a capability *inside* it, never a separate website fighting for attention.
-
-| Name | Job | Who sees it |
-|------|-----|-------------|
-| 🌿 **ReeferDude** | The master brand and the one destination — flagship front door | 🌍 Public |
-| ⚙️ **PotGrowHub** | The infrastructure, backbone, and B2B platform company underneath | 🏢 Business / behind the curtain |
-| 🔌 **The Socket** | The concept: plug an idea in, the system carries it to an outcome | 🌍 Public (the metaphor) |
-| 🧠 **GanjaGuru** | The intelligence engine — reasoning, knowledge, recommendations | 🔧 System name |
-| 🌸 **Kali Kush** | The customer-facing AI personality (locked Oct 31) — *see Open Decision #2* | 🌍 Public |
-| 👩‍🌾 **Ganja Goddess / GanjaGoddessAI** | The face of the experience — the bud-spirit guide at the center of Gravity-Gone | 🌍 Public |
-| 🌳 **GanjaGroot** | Orchestration & guardian layer — watches, routes, guards. **Never customer-facing** | 🔧 System only |
-| 🎨 **Dream-It Studio** | The creative engine — design it, see it, get it made | 🌍 Public |
-| 👻 **Ghost Commerce** | The zero-inventory commerce engine (B2B automation division) | 🏢 Business |
-| 📚 **Grow & Learn** | The knowledge engine — guides, Strain Lab, Brain Library | 🌍 Public |
-| 🌐 **reeferdude.com** | The flagship domain — the crown jewel | 🌍 Public |
-| 🛒 **potgrowhub.store** | The utility / store engine domain — currently forwarded to reeferdude.com *by the owner's choice, "for now"* | 🌍 Public |
-| 🔒 **potgrowhub.com** | Held, parked, no assigned job yet | 🔒 Internal |
-
-<details>
-<summary><b>⚠️ Naming warning — read before printing anything</b></summary>
-
-The source files disagree on the AI's public name: **Kali Kush** (the locked Oct 31 blueprints
-and the platform build plan) vs **GanjaGuru / GanjaGoddessAI** used publicly (hall.txt, the
-keeper page, the master checklists). Internal rule that holds either way: **GanjaGuru = the
-engine, never a second website.** The public face name is **Open Decision #2** in
-[Section 15](#-15--open-decisions--rays-calls) — until it's ruled, don't print merchandise
-with either name as "final."
-
-</details>
-
-### The Name Stack, Drawn
-
-```text
-                    🌿 REEFERDUDE  ← the destination (public)
-                          │
-        ┌─────────────────┼─────────────────┐
-   🌸 KALI KUSH      🧠 GANJAGURU      🎨 DREAM-IT STUDIO
-   (the face)        (the brain)        (the creative engine)
-                          │
-              🌳 GANJAGROOT — orchestration & guard
-                          │
-        ┌─────────────────┼─────────────────┐
-   👻 GHOST COMMERCE   📚 GROW & LEARN   💼 HUSTLEZONE
-        └─────────────────┼─────────────────┘
-              ⚙️ POTGROWHUB — the platform underneath
-```
-
-### The Full Domain Fleet
-
-| Domain | Owner record | Job |
-|--------|--------------|-----|
-| reeferdude.com | IONOS, expires Oct 17, 2027, auto-renew ON | 👑 Flagship |
-| potgrowhub.store | GoDaddy, expires Sep 5, 2027 | 🛒 Store engine (forwarded to flagship for now) |
-| potgrowhub.com | IONOS (separate login), expires Jun 23, 2027 | 🔒 Held / parked |
-| ganjagoddessai variants (.com/.org/.shop/.online/.info/.store) | Ray's portfolio | 🌸 Brand protection for the Goddess name |
-
----
-
-## 👥 3 · Founders, Audience & The Three Doors
-
-| | |
+| Name | Role |
 |---|---|
-| 👨‍🔧 **Raymond "Ray" Meadows** | Founder — primary technical builder & product visionary. Device-repair technician by trade, Franklin / Middletown, Warren County, Ohio |
-| 👩 **Jessica Mullins** | Co-founder & co-owner |
-| 👧 **Bella** | The reason. Ray's granddaughter — the business is being built so she never has to struggle |
-| 💸 **Budget** | **$0** and a lot of hope — "a kick, a punch, a pinch, a poke" |
-| 🛠️ **Build style** | Zero-cost tooling is a hard constraint. Anything paid gets flagged *before* it's proposed |
+| ReeferDude | Public flagship brand and destination |
+| PotGrowHub | Platform infrastructure and business-to-business capability |
+| The Socket | The idea of connecting a goal to useful tools and outcomes |
+| GanjaGuru | Intelligence engine / assistant system name |
+| GanjaGroot | Internal orchestration and guard layer; not customer-facing |
+| Dream-It Studio | Creative and design tools |
+| Ghost Commerce | Zero-inventory sourcing and commerce concept |
+| Ganja Goddess / Kali Kush | Public persona naming is unresolved; do not treat as final until the owner rules on it |
 
-### 🚪 The Three Doors In
+**One-destination rule:** capabilities live inside ReeferDude; avoid launching conflicting public brands or domains without an explicit decision.
 
-| Door | Who walks in | Their first question | First win we hand them |
-|------|--------------|----------------------|------------------------|
-| 🌱 **Grower** | "I want to grow something" | Where do I even start? | A plain-language plan + a grow that teaches as it goes |
-| 🎨 **Creator** | "I want to design / create something" | Can this idea actually get made? | A design they can see in their own room (AR) before a dollar moves |
-| 💼 **Ganjapreneur** | "I want to sell something" | How do I run this without drowning? | A merchant workspace that sources and fulfills without inventory |
+## 3 · Founders, Audience & The Three Doors
 
-### 🎯 Audience
+The project identifies Raymond “Ray” Meadows and Jessica Mullins as founders/co-owners. The intended audience is adults of legal age where they live. Three simple entry paths organize the experience: **Grow & Learn**, **Create & Design**, and **Build a Business**. Age and jurisdiction requirements must be resolved before restricted features launch.
 
-Adults of legal age in their own state or country who want anything to do with cannabis or
-hemp — growing it, gear for it, designing with it, learning about it, or building a business
-on it — served **only** where and how the law allows (see [Section 10](#-10--compliance--blocked-not-disclaimed)).
+## 4 · Gravity-Gone: The Arrival Experience
 
-### The Three Personas We Design For
+Gravity-Gone is a spatial visual direction: cosmic atmosphere, drifting elements, an orbiting module menu, and a central guide. It is progressive enhancement—not a prerequisite. The site must retain a linear, readable, keyboard-operable version, with reduced-motion support and a fast fallback when graphics are unavailable.
 
-| Persona | Who they are | What Gravity-Gone owes them |
-|---------|--------------|------------------------------|
-| 🔧 **The Tech Cultivator** | Grows with sensors, spreadsheets, and opinions about light math | Real calculators, real data, no dumbing down |
-| 😎 **The Daily Connoisseur** | Knows what they like; wants it found fast and right | Mood-first matching, three options max, plain reasons |
-| 🛠️ **The DIY Builder / Scavenger** | Would rather make it than buy it | Blueprints, parts lists, print files, honest feasibility |
+## 5 · The 13 Modules
 
-### Proof the Founders Bring
+| # | Module | Purpose | Status principle |
+|---:|---|---|---|
+| 1 | The Stash | Gear and lifestyle catalog | Demo/catalog status must be clear; no fake checkout |
+| 2 | Dream-It Studio | Design and preview concepts | A preview is not a production-ready file |
+| 3 | Strain Lab | Educational profiles and lineage | Source and confidence required |
+| 4 | AI Budtender | Conversational discovery and learning | Demo unless a real provider and knowledge base are connected |
+| 5 | Grow Room | Planning and educational tools | No unsupported yield or medical claims |
+| 6 | Blueprint Engine | Turn a goal into steps and a materials plan | Estimates are labeled |
+| 7 | Kush Courier | Delivery information | Gated until licensed and operational |
+| 8 | Puff Quest | Learning and contribution activities | No consumption rewards or gambling mechanics |
+| 9 | Brain Library | Plain-language guides | Sources and review dates |
+| 10 | Consultation | Human services | Planned until booking and delivery exist |
+| 11 | Community | Member projects and discussion | Moderation and consent required |
+| 12 | Business Hub | Merchant workspace and supplier tools | Pilot/foundation status must be accurate |
+| 13 | User Vault | Saved work and account preferences | Privacy, access, and deletion controls required |
 
-| Asset | Number |
-|-------|--------|
-| Google Local Guide reach (3 accounts combined) | **9.9M views** (4.1M + 3.5M + 2.3M) |
-| Single Facebook Marketplace post | **100,000 views** |
-| Trade background | Decades of device & computer repair — the workbench is the origin story |
+## 6 · The Socket: Service Flow
+
+A user describes a goal; the assistant clarifies; a plan or learning path is offered; the user reviews and edits it; sourcing or production options are shown only when supported; the user approves consequential actions. Payments, procurement, and fulfillment remain gated until authorized and tested.
+
+## 7 · Brand System: Colors, Fonts & Emoji
+
+Core visual palette: cosmic black `#0A0A0A`, smoke black `#121212`, deep green `#0B3D2E`, emerald `#00D26A`, solar gold `#FFBF00`, purple `#7A3FF2`, cyan `#00D9FF`, warm orange `#FF8A3D`, mist white `#F5F5F5`, and silver `#C0C0C0`. Use readable system-font fallbacks. Emoji decorate labels; they do not replace them. Motion is calm and never blocks interaction.
+
+## 8 · Knowledge Rules: The AI Never Invents
+
+Every factual response should distinguish **Verified**, **Estimated**, and **Generated** content. Preserve disagreement between sources. Do not invent counts, prices, legal rules, supplier availability, sustainability certification, medical effects, or product claims. Label simulations as educational estimates. For health, legal, or financial decisions, provide a responsible handoff rather than a confident guess.
+
+## 9 · Ghost Commerce: Zero-Inventory Engine
+
+The planned flow is discover → research → compare → validate → recommend → obtain human/customer approval → procure or produce → fulfill. No supplier's eco or quality claim is accepted without evidence. Supplier orders, payments, refunds, and publication require explicit authority and audit records. Zero inventory is a business model goal, not proof of an operational supplier network.
+
+## 10 · Compliance: Blocked, Not Disclaimed
+
+Eligibility must be evaluated before a restricted product or service can be offered. Consider product, destination, customer, and channel; block when eligibility is unknown or disallowed. Laws and provider rules change and vary by jurisdiction. Obtain qualified legal review before operating regulated commerce, delivery, or age-gated services. This README is not legal advice.
+
+## 11 · Business Model & Money Map
+
+Potential revenue includes compliant accessories, affiliate referrals, creator tools, education, consultations, subscriptions, and business software. These are hypotheses until validated with real customers and measured results. First prove one useful customer workflow; do not treat aspirational revenue mixes or valuations as forecasts.
+
+## 12 · SEO / AEO: The Money Loop
+
+Create useful answer-first resources with accurate authorship, evidence, review dates, metadata, internal links, and one clear next action. Publish only substantive pages. Structured data must describe what is actually on the page. Reviews, availability, merchant status, and statistics must be real. Track meaningful actions with appropriate consent.
+
+## 13 · Tech Stack & Platform Status
+
+Proposed direction: React + TypeScript + Vite frontend; Node.js + Express modular backend; PostgreSQL; optional Three.js/WebXR; optional local AI; and PWA/offline support. Payment providers remain unconnected until written approval. This is architecture direction; consult the repository and deployment environment for actual implementation status.
+
+## 14 · Roadmap & Do-Not-Build List
+
+1. Accessible, responsive public foundation and trust content.
+2. One useful assistant demo and one practical planning tool.
+3. Validate one content or commerce workflow with real users.
+4. Add account, supplier, and operational capabilities only after defining security and legal requirements.
+5. Expand only what has evidence and can be supported.
+
+Do not build a giant marketplace, autonomous purchasing, regulated delivery, medical personalization, fake engagement, or thousands of thin SEO pages ahead of proof.
+
+## 15 · Open Decisions: Ray's Calls
+
+The supplied material has unresolved conflicts around: (1) minimum age, (2) public AI/persona name, (3) flagship domain hierarchy, (4) local-first application versus static hosting, (5) default voice, and (6) scale versus proof-first scope. Record each decision with the owner's ruling and date; do not silently select contradictory defaults.
+
+## 16 · Glossary: The Brand Dictionary
+
+- **AEO:** writing clear answers that search and assistant systems can understand.
+- **AR / VR:** digital objects overlaid on the real world / an immersive digital space.
+- **Ghost Commerce:** sourcing or making products after demand rather than holding stock.
+- **RLS:** database rules that restrict each business to its own records.
+- **Terpenes:** plant compounds associated with smell and flavor; claims about effects need reliable evidence.
+- **POD / 3DPoD:** print-on-demand / 3D print-on-demand.
+- **XP:** points for learning or contributions; not automatically money or stored value.
+
+## 17 · FAQ
+
+**Do you sell cannabis?** The intended public posture is education, design, and eligible accessories; regulated goods are not enabled by this README.  
+**Is the assistant live?** Do not call it live unless an actual provider and verified knowledge source are connected.  
+**Can I check out?** Only if an approved payment system and operational checkout are actually deployed; otherwise use a truthful request/waitlist action.  
+**Are eco claims guaranteed?** No claim should be presented without product-specific evidence.  
+**Is delivery available?** Do not advertise delivery until licensing, geography, and operations are confirmed.
+
+## 18 · Link Directory
+
+- Public flagship: [reeferdude.com](https://reeferdude.com)
+- Store domain: [potgrowhub.store](https://potgrowhub.store)
+- Related repository and internal project links should be checked before being presented as active. Local filesystem paths are not public links.
+
+## 19 · Honest Status: What Is Actually Live
+
+Keep a dated table for each product surface: **production**, **preview**, **local only**, **planned**, or **unavailable**. Verify domain, hosting, platform, checkout, AI, analytics, ads files, and supplier integrations before making a claim. The status details in older source notes are historical and must be rechecked before reuse.
+
+## 20 · Credits, Ownership & Footer
+
+Credit Raymond Meadows, Jessica Mullins, and contributors according to their actual roles. Verify ownership and licensing of code, images, fonts, datasets, and trademarks before publication. Proprietary and trademark assertions require appropriate review.
+
+## 21 · The Mythology: The Modern Outlaw & The Green Grid
+
+The brand story combines independent spirit, craft, practical engineering, learning, and environmental responsibility. Mythology is creative expression—not evidence of safety, legality, sustainability, or market leadership. Keep the voice welcoming and avoid stereotypes or claims that glorify unlawful conduct.
+
+## 22 · The Persona Council: Who's on the AI Team
+
+Planned roles include a general guide, product/knowledge helper, grow-education helper, design assistant, and business-planning helper. All share one safety and truth policy: use sources, disclose uncertainty, protect private data, avoid diagnosis or legal conclusions, and hand off consequential decisions to a person.
+
+## 23 · Dream-It Studio: Deep Dive
+
+Roadmap: choose a template; adjust supported properties; preview; save a draft; inspect materials and production constraints; export only supported formats. A visual model is not proof of manufacturability. Production requires valid technical files, supplier confirmation, safety/material review, and human approval.
+
+## 24 · Strain Lab: Deep Dive
+
+Build the educational library from provenance-tracked records. Preserve source, date, and confidence for lineage and profile fields. Imported or owner-provided data stays unverified until reviewed. Do not present strain names, effects, cannabinoid values, or cultivation figures as established facts without evidence; never provide medical treatment or dosing advice.
+
+## 25 · Gamification System: Full Specification
+
+Reward learning, helpful contributions, and completed creative tasks—not cannabis consumption. Keep a transparent, reversible ledger and user-controlled limits. Do not imply points have cash value, use chance-based rewards, or create compulsive engagement loops without legal and product review.
+
+## 26 · Membership: Tier Deep Dive
+
+Tier names and historical example prices are proposals until confirmed. Before launch, publish actual benefits, price, billing schedule, taxes, cancellation, refunds, support, eligibility, and service limitations. Connect billing only through an approved provider; never claim an inactive plan is available.
+
+## 27 · The Page Universe: Full Inventory
+
+Treat the extensive proposed sitemap as a deduplicated planning backlog. Organize by user job—learn, plan, create, source, operate, and manage an account. Build a route only when its content and functionality exist. Page count is an output of verified usefulness, not a goal.
+
+## 28 · Root Files Cookbook
+
+- `robots.txt`: crawler rules and the correct domain's sitemap URL.
+- `sitemap.xml`: real, canonical, indexable pages only.
+- `manifest.webmanifest`: app name, theme, and real available icons.
+- `sw.js`: carefully scoped caching and offline behavior.
+- `llms.txt`: optional guide to authoritative public material.
+- `.well-known/security.txt`: valid security contact and disclosure policy.
+- `humans.txt`: accurate credits.
+- `ads.txt`: publish only with the verified publisher authorization line.
+
+Never invent verification tokens, security contacts, publisher IDs, or canonical URLs.
+
+## 29 · Accessibility & Inclusion Standard
+
+Use semantic landmarks, clear heading order, keyboard access, visible focus, meaningful labels, captions/transcripts, sufficient contrast, zoom support, and reduced-motion behavior. Provide a linear alternative to spatial UI. Test with keyboard and assistive technology; do not claim a conformance level before an audit.
+
+## 30 · Security, Privacy & Trust
+
+Minimize personal data, define retention and deletion, use secure sessions and server-side authorization, validate external input, and keep secrets out of source control and browser code. Do not put payment-card or identity-document data in logs. Explain local storage, AI processing, analytics, cookies, and external sharing before enabling them.
+
+## 31 · Analytics & The Owner Dashboard
+
+Track defined events such as tool completion, searches, signup, referrals, and confirmed transactions. Respect consent and retention rules. Separate measured values from targets or estimates. Do not ship fabricated live counters or imply analytics is connected when it is not.
+
+## 32 · Community & Content Engine
+
+Community requires moderation, reporting, consent, and privacy controls. Creator content and images require permission. Publish real contributions only; no fabricated reviews, comments, members, or activity. Give editorial content an author, source list, and review date where appropriate.
+
+## 33 · Competitive Landscape
+
+Compare alternatives using current, cited sources and a stated comparison method. Differentiate through practical workflows, accessible design, and evidence-aware information. Avoid unsupported “first,” “best,” market-size, or competitor-performance claims.
+
+## 34 · Risk Register & Kill Criteria
+
+Track legal, safety, privacy, security, payment, vendor, operational, and reputation risks with an owner, mitigation, review date, and stop condition. Pause features when authorization, evidence, security, or operating capacity is missing.
+
+# Part II · Engineering & Infrastructure
+
+## 35 · Complete System Architecture
+
+Start with a clear frontend and add a modular backend only for capabilities that need it. Keep presentation, domain rules, persistence, and provider adapters separate. An external service failure must not take down public educational content or the accessible navigation.
+
+## 36 · Master File & Folder Architecture
+
+Maintain one authoritative app entry point, router, design system, state model, content source, and service-worker strategy. Generate repetitive pages or metadata from validated data rather than creating empty files. The repository's file-map document is a planning reference, not proof every listed path exists.
+
+## 37 · AI Agent Architecture & Orchestration
+
+Agents are scoped helpers, not autonomous decision-makers. Specify tools, permissions, schemas, timeouts, audit events, data boundaries, and fallback behavior. Require explicit human approval for purchases, payments, refunds, supplier commitments, publication, and sensitive exports.
+
+## 38 · API & Integration Directory
+
+For every integration document its owner, purpose, data exchanged, scopes, secret location, costs, limits, test environment, health checks, failure handling, and removal process. No API is “connected” until credentials are configured securely and the integration is tested.
+
+## 39 · Database & Data Architecture
+
+PostgreSQL is the proposed primary store. Define tenant boundaries, migrations, constraints, indexes, backups, audit trails, deletion, and retention. Add vector or time-series storage only when demonstrated requirements justify it. Never place secrets or unnecessary personal information in seed data.
+
+## 40 · Hosting, Deployment & Infrastructure
+
+Local development is the production workshop; production deployment is a separate verified step. Document DNS, TLS, hosting, environments, secret management, backups, release approval, and rollback. A successful local build does not mean the site is deployed.
+
+## 41 · Offline-First & Synchronization Engine
+
+Cache the app shell and explicitly chosen public resources. Save drafts locally with clear notice and deletion controls. Queue only safe and retryable actions; show sync/conflict status. Cloud AI, live availability, account sync, payments, and fulfillment require connectivity unless a separate implementation is available and reviewed.
+
+## 42 · Testing, QA & Quality Assurance
+
+Run type checks, unit and integration tests, production builds, accessibility checks, and representative mobile/desktop journeys. Test offline and service-failure states. Record what passed, what failed, and what was not tested; do not treat empty test files as validation.
+
+## 43 · DevOps, Monitoring & Disaster Recovery
+
+Use repeatable builds, controlled dependency updates, least privilege, secret rotation, health checks, privacy-conscious logs, and tested backups. Document incident response, recovery objectives, restore exercises, and rollback. Make no uptime promise without measured operations.
+
+# Part III · Commerce & Revenue Operations
+
+## 44 · Complete Commerce & Order Lifecycle
+
+The future flow is eligibility check → accurate offer → customer review → authorized payment → supplier order → fulfillment updates → support/refund. Until the full path is approved and operational, use a truthful request, quote, or waitlist flow. Never simulate a successful payment.
+
+## 45 · Supplier & Vendor Network
+
+Verify supplier identity, capability, terms, product evidence, fulfillment, geography, and environmental claims before listing. Track review dates and expire stale evidence. Block suppliers when required proof is absent or contradicted.
+
+## 46 · Product Catalog & Inventory Intelligence
+
+Store product description, source, price timestamp, availability timestamp, restrictions, images, and claim evidence distinctly. A demo record or supplier feed is not proof of stock. Do not list controlled or restricted goods without the needed authorization.
+
+## 47 · Payments, Payouts & Financial Operations
+
+Payment integrations stay disabled until a provider approves the actual business and product model in writing. Use provider-hosted payment collection when possible. Define refunds, chargebacks, taxes, reconciliation, payouts, and permissions before launch; never expose keys or hold third-party funds without proper structure.
+
+## 48 · Affiliate, Referral & Partnership Engine
+
+Clearly disclose affiliate links and paid placements. Record referral rules and attribution with appropriate consent. Do not imply an endorsement or guaranteed commission. Verify partner claims and keep commercial influence visible in recommendations.
+
+## 49 · Revenue Attribution & Profitability
+
+Separate actual revenue from targets, estimates, and pipeline. Account for refunds, payment and supplier costs, support, taxes, and acquisition expense. Eliminate internal transfers in consolidated reporting to avoid double counting.
+
+## 50 · Customer Relationship Management
+
+Collect only data needed for an explained purpose. Provide appropriate access, correction, unsubscribe, and deletion paths. Restrict support records by role and set retention periods. Do not use sensitive personal data for personalization without a clear, consented need.
+
+# Part IV · AI Intelligence & Automation
+
+## 51 · AI Gateway, Models & Provider Management
+
+Use a provider-neutral, server-side adapter with explicit configuration, timeouts, cost/usage limits, safety checks, and fallback. No AI provider is configured by default. Keep keys out of frontend code and do not claim capabilities before testing them.
+
+## 52 · AI Memory, Context & Personalization
+
+Make persistent memory opt-in, inspectable, editable, and deletable. Explain what is saved, why, and for how long. Prefer ephemeral or local preferences until a durable memory feature has a clear benefit and privacy review.
+
+## 53 · Autonomous Workflow & Automation Engine
+
+Start with drafts and recommendations. Automation must have least privilege, explicit scope, rate limits, idempotency, audit logs, and a stop mechanism. Require authorized human approval for financial, supplier, publication, and sensitive-data actions.
+
+## 54 · Knowledge Base & RAG Infrastructure
+
+Retrieve from a versioned, reviewed corpus with source metadata and dates. Show source references when possible. Handle gaps and conflicts by communicating uncertainty; never fill missing knowledge with invented facts. Provide a process to correct outdated or disputed material.
+
+## 55 · Voice, Speech & Multimodal Intelligence
+
+Voice, camera, and file handling are optional and permission-based. Provide text alternatives and explain whether data leaves the device. Do not diagnose health conditions or infer sensitive attributes from images, audio, or text.
+
+# Part V · Growth, Ownership & Long-Term Value
+
+## 56 · MVP Scope & Acceptance Criteria
+
+The first usable release should make the next step obvious, provide a useful assistant demo, offer one practical tool, and explain what is and is not operational. Acceptance includes responsive layout, keyboard access, reduced motion, honest status labels, no fake integrations, and a successful production build.
+
+## 57 · User Journeys & Experience Blueprints
+
+Document journeys for learners, creators, planners, and merchants. For each, record the goal, entry point, required information, consent, success measure, failure route, and human handoff. Keep every journey usable without a spatial interface.
+
+## 58 · Marketing, Acquisition & Retention Engine
+
+Grow through useful education, opt-in communications, transparent partnerships, and measurable customer outcomes. Avoid fake scarcity, undisclosed ads, fabricated social proof, manipulative attention loops, and unsupported search-ranking promises.
+
+## 59 · Expansion, Localization & Internationalization
+
+Expand region by region after reviewing language, accessibility, legal, privacy, tax, shipping, and support requirements. Store jurisdiction intentionally and minimize location data. Never assume one region's rules apply globally.
+
+## 60 · Intellectual Property & Platform Defensibility
+
+Maintain an asset and license register covering code, fonts, images, datasets, models, names, and creator submissions. Get permission for third-party and user-created work. Build defensibility through useful workflows, trustworthy operations, and earned partnerships—not unverified IP claims.
+
+## 61 · Standard Operating Procedures & Administration
+
+Document access provisioning, content review, supplier review, moderation, data requests, incident handling, backups, and release approval. Restrict admin privileges and log sensitive actions. Require additional approval for high-impact actions where practical.
+
+## 62 · Scalability, Capacity & Performance Engineering
+
+Measure real load time, error rates, accessibility, and device performance before optimizing. Lazy-load optional graphics and provide a lightweight fallback. Set budgets from measured baselines; do not promise frame rates, response times, or user capacity without testing.
+
+## 63 · Valuation, Strategic Partnerships & Exit Strategy
+
+Valuation numbers and revenue mixes in planning material are scenarios, not appraisals or forecasts. Use transparent assumptions and verified financials. Assess partnerships by customer benefit, legal fit, data control, operational responsibility, and sustainable economics.
+
+## 64 · Master Documentation & Change Management
+
+Keep this file as the canonical project map. Record decisions, owners, dates, source provenance, status, tests, and unresolved questions. Link detailed specifications rather than maintaining conflicting duplicates. Retire stale claims when facts change.
 
 ---
 
-## 🪐 4 · Gravity-Gone — The Arrival Experience
+## Source and status note
 
-Not a page. **A place.** The visitor doesn't scroll a document — they float in a living space
-with the Goddess at the center of it, and her smoke *is* the interface.
-
-### 🎬 The Arrival (second by second)
-
-| Time | What happens |
-|------|--------------|
-| 🚪 **Gate** | Age gate + cookie notice first. Always. The choice is **remembered** — nobody gets asked twice on the same device |
-| 0–1s | Black screen. One word breathes in: **BREATHE** *(variant: a golden ember ignites, sub-bass hum)* |
-| 1–3s | Bloom into a living nebula — Granddaddy Purple 🟣, Green Crack 🟢, Agent Orange 🟠 |
-| 3–4s | The camera floats forward. Islands drift into view: a rotating piece, a wireframe grow tent, a glowing circuit-leaf landmark |
-| 4–5s | The Guru speaks: *"Alright. You made it. Welcome to the trip. What's the first move?"* |
-| ~7s | **Pull to Start** — or just say *"start."* Prefer peace? **Skip to Zen** |
-
-### 🧭 The Space Itself
-
-| Element | How it behaves |
-|---------|---------------|
-| 🌸 **The Goddess** | Fixed at absolute center (X 50% / Y 50%), always visible, breathing. Vine-and-leaf hair, bud-textured skin, golden resin veins, eyes that shift with her state |
-| 💨 **Her smoke** | Every exhale rises and **forms the menu icons** — the orbit *is* her smoke. 🔴 **STANDING RULE: if smoke ever crosses her face, move the smoke — never remove it. No smoke = no icons** |
-| 🪐 **Orbital menu** | Smoke-formed icons circle her slowly, pause on hover, expand on focus, and **warp** their island forward when chosen |
-| 🏝️ **Floating islands** | Each module is an island drifting on its own axis with soft collisions. Islands can be pulled forward, pushed back, dragged — by cursor, touch, gesture, or voice: *"Pull the Design Studio forward"* |
-| 🌫️ **Smoke information layer** | Tips, hints, and AI guidance drift upward as text particles and fade — never a wall of text |
-| 🖼️ **Frame** | Top border = smooth glowing **cloud** motif (peace / higher consciousness). Bottom border = rugged **saw-blade** edge (street hustle / industrial precision) |
-| 🎛️ **Edge UI** | Top-left: logo reset, voice trigger, command field, upload. Top-right: notifications, profile, wallet / XP status. Bottom: the ever-present chat bar |
-
-### 🎭 Her Five States
-
-| State | Tell |
-|-------|------|
-| 😌 **Idle** | Slow breathing, soft smoke drift |
-| 👂 **Listening** | Orbit slows, her gaze focuses on you |
-| 🤔 **Thinking** | Smoke density rises |
-| 💬 **Responding** | Glow pulse, orbit re-flows around the answer |
-| ✨ **Transcending** | The whole space reconfigures around a big task |
-
-### ♿ Fallbacks — Required, Not Optional
-
-| Fallback | Why it exists |
-|----------|---------------|
-| 🖱️ Click / tap + standard scroll | Not everyone floats |
-| ⌨️ Full keyboard navigation | Arrow keys nudge, Enter/Space select, Esc backs out |
-| 🎙️ Voice-only mode | Hands busy, eyes busy, or just preference |
-| 📝 Captions & transcripts | Every spoken thing exists as text |
-| 🧘 **Calm Island** reset | One tap returns the whole space to still and simple |
-| 🧭 **Lost Mode** beacon | A guide light for anyone disoriented |
-| 📜 **Linear view** | A plain scrolling version if the spatial layer fails or is declined |
-| 🔇 Reduced-motion respect | `prefers-reduced-motion` turns the float off entirely |
-
-### ⚖️ Physics Rules (from the Gravity-Gone spec)
-
-| Object state | Drift | Rule |
-|--------------|-------|------|
-| ⚓ Anchored | ≤ 2px | Usability wins — headers, chat bar, critical controls barely move |
-| 🎈 Floating | 4–12px, 8–15s cycles | Islands breathe, never jitter |
-| 🪐 Orbiting | Continuous, slow | The menu ring around the Goddess |
-| 👆 Cursor influence | Max 10–15% | The space leans toward you; it never chases you |
-| 📱 Mobile | Motion/particles cut 50–70% | Performance is a feature |
-| ♿ Accessibility | **Overrides all aesthetics** | WCAG AA minimum, AAA target for text |
-
-> 🖼️ **Status:** a working Gravity-Gone **preview** was built Nov 7, 2026 — age gate,
-> BREATHE arrival, orbiting smoke menu, eight draggable islands with real working content,
-> Calm mode, Linear view, Lost Mode. It is a **preview only** — nothing has been published
-> to reeferdude.com. See [Section 19](#-19--honest-status--what-is-actually-live).
-
-### Performance Targets (Gravity-Gone spec)
-
-| Metric | Target |
-|--------|--------|
-| Homepage load | < 2s |
-| Time to interactive | < 3s |
-| Navigation response | ≤ 100ms |
-| AI "thinking" state visible | < 250ms (she must *look* alive instantly) |
-| Frame rate | 60 FPS desktop · 30 FPS mobile minimum |
-| Particle budget | 500–1,500 desktop · 100–300 mobile |
-| Failure states | Never a raw "Error/404" — always recovery language and a way back |
-
-### The Eight Islands in the Working Preview
-
-| Island | Working content inside |
-|--------|------------------------|
-| 🛍️ The Stash | The 8 demo products, working cart drawer with totals, membership tiers that update the header chip |
-| 🎨 Design Studio | Piece type, size slider, color swatches, spinning preview, decal stamp, save-a-design (+XP) |
-| 🧬 Strain Lab | Mood buttons over 6 seed strains, Cross-Breed Playground, plain-word glossary chips |
-| 🤖 GanjaGuru AI | Demo-brain chat that warps the right island forward per intent |
-| 🌱 Grow Room | Stage tracker + light calculator (30–50 W per sq ft rule of thumb) |
-| 🚚 Kush Courier | How-it-works steps, ZIP checker with an honest demo answer, animated map dots |
-| 🎮 Puff Quest | 3-question quiz + 20-second Bud Catcher game feeding real XP/KushCoin |
-| 📚 Brain Library | Four full plain-language guides + the "facts are checked, guesses are labeled" note |
-
----
-
-## 🧩 5 · The 13 Modules (One Destination)
-
-| # | Module | Emoji | What it does | Status |
-|:-:|--------|:-----:|--------------|:------:|
-| 1 | **The Stash** | 🛍️ | The shop shelf — demo catalog today (8 gear pieces, $12–$120+), honest "no cannabis sold here" framing | 🟡 Demo live on IONOS site |
-| 2 | **Dream-It Studio** | 🎨 | Design custom gear → see it in AR in your room → honest production check → get it made (print-on-demand / 3D print-on-demand) | 🟡 Platform built |
-| 3 | **Strain Lab** | 🧬 | Library, lineage trees, mood matcher, Cross-Breed Playground (averages labeled *"a rough guess"*), virtual grows that teach | 🟢 Platform built & verified |
-| 4 | **AI Budtender** | 🤖 | The conversational brain — answers from checked facts only, specialist hats (budtender / grow / design / hustle / knowledge) | 🟡 Demo brain in preview |
-| 5 | **Grow Room** | 🌱 | Grow planner, stage tracker (Seed→Seedling→Veg→Flower→Harvest), light calculator, plain-word troubleshooting | 🟡 Platform + preview |
-| 6 | **Blueprint Engine** | 📐 | Idea → full plan: steps, materials, budget, shopping list — the "what do I do next?" machine | 🟡 Seed blueprint published |
-| 7 | **Kush Courier** | 🚚 | Delivery, explained honestly — how it works, zones, tracking. 🔴 Never advertised as "24/7" until operations prove it | 🔴 Gated program |
-| 8 | **Puff Quest** | 🎮 | Quiz + Bud Catcher game feeding real XP — learn by playing | 🟢 Working in preview |
-| 9 | **Brain Library** | 📚 | Plain-language guides anyone of average education can follow — germination, gear care, smell-and-flavor oils, troubleshooting | 🟢 Working in preview |
-| 10 | **Consultation** | 📞 | Sit-downs with the crew — video, phone, or in person where legal | ⚪ Planned |
-| 11 | **Community** | 👥 | Stories, shoutouts, the social wall — real people, no fabricated reviews, ever | ⚪ Planned |
-| 12 | **HustleZone / Business Hub** | 💼 | The merchant side — Workspace, supplier tools, the B2B platform front door | 🟡 Platform foundation built |
-| 13 | **User Vault** | 🔐 | Your digital headquarters — designs, grows, orders, XP, settings, all in one place | 🟡 Accounts built in platform |
-
-<details>
-<summary><b>🛍️ The Stash — current demo shelf (verified live prices)</b></summary>
-
-| Product | Price |
-|---------|------:|
-| Creekwalker Glass Bong | $89 |
-| Design Your Own Piece | $120+ |
-| Swagger Stick Vape + Mini Dab Rig | $59 |
-| Gold Rush Concentrate Sampler | $45 |
-| Collector's Seed Jar | $35 |
-| Leaf-Etched Grinder | $28 |
-| Hippie Spoon Pipe | $24 |
-| Custom Hemp Rolling Papers | $12 |
-
-**Membership tiers (live on both sites):**
-
-| Tier | Price | Emblem |
-|------|------:|--------|
-| 🌱 Seed Starter / Seedling | **$19/mo** | Seedling ring |
-| 🔥 Master Grower | **$49/mo** | Flaming leaf |
-| 👑 Ganjapreneur | **$99/mo** | Golden leaf-crown |
-
-</details>
-
-<details>
-<summary><b>📏 The page-count rule</b></summary>
-
-The vision files dream in hundreds of page types and six-figure entity counts. The locked
-rule from the Master Blueprint stands above the dream: **page count is an output of verified
-content, never a target.** A thousand thin pages built on guesses are worth less than twelve
-pages that answer real questions with checked facts. Grow the universe as fast as the
-*evidence* allows — no faster.
-
-</details>
-
-### Module × Door × Money Matrix
-
-| Module | 🌱 Grower | 🎨 Creator | 💼 Ganjapreneur | Money path |
-|--------|:---------:|:----------:|:---------------:|------------|
-| The Stash | ● | ○ | ● | Product margin / affiliate |
-| Dream-It Studio | ○ | ● | ● | Design + make fees |
-| Strain Lab | ● | ○ | ○ | Membership depth |
-| AI Budtender | ● | ● | ● | The front door to everything |
-| Grow Room | ● | ○ | ● | Tools + gear attach |
-| Blueprint Engine | ● | ● | ● | Blueprint sales / leads |
-| Kush Courier | ● | ○ | ● | Delivery margin (gated) |
-| Puff Quest | ● | ● | ○ | Retention, honestly earned |
-| Brain Library | ● | ● | ○ | SEO/AEO gravity |
-| Consultation | ● | ● | ● | Session fees |
-| Community | ● | ● | ● | Network value |
-| HustleZone | ○ | ○ | ● | SaaS subscriptions |
-| User Vault | ● | ● | ● | Stickiness + data (with consent) |
-
-*● primary door · ○ welcome too*
-
----
-
-## 🔌 6 · The Socket — Service Flow
-
-The full journey, as the customer lives it:
-
-| Step | What happens | Who does it |
-|-----:|--------------|-------------|
-| 1 | 💬 **Consult** — tell the Guru the idea (type it, say it, or book a sit-down) | Customer + AI |
-| 2 | 🧠 **Understand** — the AI asks intelligent questions, never dumps a form | GanjaGuru |
-| 3 | 🗺️ **Plan** — a real plan appears: steps, order, budget sense | Blueprint Engine |
-| 4 | 🎨 **Design** — the thing gets shaped in Dream-It Studio | Customer + Design AI |
-| 5 | 👓 **See it** — AR places it in your actual room; VR walks you through the grow | AR/VR layer |
-| 6 | 🛒 **Shopping list** — everything needed, itemized, nothing padded | The Socket |
-| 7 | 🌱 **Source it** — eco-only suppliers, ranked by a published score (Section 9) | Ghost Commerce |
-| 8 | ✅ **Approve** — a human approves before any money moves. **Always** | Customer / Merchant |
-| 9 | 🏭 **Make / procure** — printed, packed in mushroom/hemp packaging, or drop-shipped | Supplier network |
-| 10 | 🚚 **Deliver** — tracked, discreet, honest ETAs | Courier layer |
-| 11 | 📘 **Blueprint to finish** — step-by-step guidance to complete the project | Grow & Learn |
-| 12 | 🔁 **Learn & repeat** — the system remembers what worked (with consent) and gets smarter | Knowledge engine |
-
-> **The first real product answers one question:** *"I've got an idea. What do I do next?"*
-> Everything else is expansion.
-
-### Consultation Formats & the Exception Lane
-
-| Format | When it's offered |
-|--------|-------------------|
-| 💬 Type it in the interface | Always — the default door |
-| 📹 Virtual / video sit-down | Design reviews, grow planning |
-| 📞 Phone | Quick consults, older-school comfort |
-| 🤝 In person | Where legal and local — Franklin, Ohio home turf first |
-
-> **The exception lane (Master Blueprint rule):** automation runs the normal path; anything
-> odd — a weird address, a borderline product, a confused customer — routes to a **human**,
-> fast, without punishing the customer for the system's limits. Automation with an exception
-> lane, never automation with a trap door.
-
-### Discretion as a Feature
-
-Plain, unmarked packaging · no product names on the box · tracking that tells the customer
-everything and the porch nothing. Discretion is part of the product, not an afterthought.
-
----
-
-## 🎨 7 · Brand System — Colors, Fonts, Emoji
-
-### 🌈 The Master Palette
-
-| Swatch | Name | Hex | Job |
-|:------:|------|-----|-----|
-| ![#0A0A0A](https://img.shields.io/badge/-%230A0A0A-0A0A0A?style=flat-square) | Obsidian / Cosmic Black | `#0A0A0A` | The void — page background |
-| ![#121212](https://img.shields.io/badge/-%23121212-121212?style=flat-square) | Smoke Black | `#121212` | Panels, cards |
-| ![#0B3D2E](https://img.shields.io/badge/-%230B3D2E-0B3D2E?style=flat-square) | Deep Cannabis Green | `#0B3D2E` | Depth, sections, roots |
-| ![#00D26A](https://img.shields.io/badge/-%2300D26A-00D26A?style=flat-square) | Cannabis Emerald | `#00D26A` | Primary action green |
-| ![#38d39f](https://img.shields.io/badge/-%2338d39f-38d39f?style=flat-square) | Platform Accent | `#38d39f` | Merchant portal & platform UI accent |
-| ![#39FF88](https://img.shields.io/badge/-%2339FF88-39FF88?style=flat-square) | Neon Leaf | `#39FF88` | Glow, energy lines, live indicators |
-| ![#FFD700](https://img.shields.io/badge/-%23FFD700-FFD700?style=flat-square) | Gold Resin | `#FFD700` | Headlines, crowns, the good stuff |
-| ![#FFBF00](https://img.shields.io/badge/-%23FFBF00-FFBF00?style=flat-square) | Solar Gold | `#FFBF00` | Badges, highlights, calls to action |
-| ![#7A3FF2](https://img.shields.io/badge/-%237A3FF2-7A3FF2?style=flat-square) | Electric Purple | `#7A3FF2` | Think / intelligence / nebula |
-| ![#00D9FF](https://img.shields.io/badge/-%2300D9FF-00D9FF?style=flat-square) | Electric Cyan | `#00D9FF` | Links, holograms, AR overlays |
-| ![#FF8A3D](https://img.shields.io/badge/-%23FF8A3D-FF8A3D?style=flat-square) | Sunset Orange | `#FF8A3D` | Create / warmth / warnings-lite |
-| ![#5C3A21](https://img.shields.io/badge/-%235C3A21-5C3A21?style=flat-square) | Earth Brown | `#5C3A21` | Earth, wood, grounding |
-| ![#F5F5F5](https://img.shields.io/badge/-%23F5F5F5-F5F5F5?style=flat-square) | Mist White | `#F5F5F5` | Body text on dark |
-| ![#C0C0C0](https://img.shields.io/badge/-%23C0C0C0-C0C0C0?style=flat-square) | Silver | `#C0C0C0` | Metal, social icons, secondary text |
-
-<details>
-<summary><b>🎨 Color philosophy — what each color <i>means</i></b></summary>
-
-| Color | Meaning |
-|-------|---------|
-| 🟢 Green | Grow |
-| 🟣 Purple | Think |
-| 🟡 Gold | Discover |
-| 🟠 Orange | Create |
-| ⚫ Black | Interface |
-| ⚪ White | Clarity |
-| 🟤 Brown | Earth |
-| ⬜ Silver | Technology |
-
-**Particle color meanings (Gravity-Gone):** green = growth/knowledge drifting up ·
-gold = rewards and discovery · purple = thinking/AI at work · cyan = links and portals ·
-soft white = plain smoke, the connective tissue of the whole space.
-
-</details>
-
-### 🔤 Typography
-
-| Role | Font | Notes |
-|------|------|-------|
-| 🏛️ Display / Logo | **Futura** (fallback Orbitron) | REEFERDUDE.COM masthead, gold with emerald glow |
-| 📰 Headlines | **Roboto** / Syne | Taglines and section titles |
-| 📄 Body | **Poppins** / Inter | Plain, readable, friendly — the average-education rule applies to type too |
-| ✍️ Accent script | Jazzy script | Sparingly — signatures and small flourishes only |
-| 💻 Code / data | Fira Code / JetBrains Mono | Dashboards, telemetry, specs |
-
-### 😀 The Emoji Framework
-
-| Emoji | Meaning in this universe |
-|:-----:|--------------------------|
-| 🌿 | The plant / the brand |
-| 💨 | Smoke — navigation, flow, the Guru at work |
-| 🔌 | The Socket — plugging an idea in |
-| 🪐 | Gravity-Gone space / orbiting |
-| 🏝️ | A floating island (a module) |
-| 🌸 | The Goddess / Kali Kush presence |
-| 🧠 | GanjaGuru intelligence |
-| 🌳 | GanjaGroot guarding |
-| 👻 | Ghost Commerce — zero inventory |
-| 🧬 | Strains & genetics |
-| 🎨 | Dream-It Studio / creating |
-| 👓 | AR/VR — seeing it before it's real |
-| 🌱 | Growing / new beginnings |
-| 🚚 | Delivery |
-| 🎮 | Puff Quest / play |
-| 🪙 | KushCoin / XP economy |
-| ⚖️ | Legal & compliance |
-| 🔒 | Trust, privacy, security |
-| 🚀 | Launch / level up |
-
-> **House rule (from the brand files):** *Emojis decorate the message. They never carry the
-> entire message.* Buttons and icons should be **visually self-explanatory** — Ray's standing
-> preference is icons you understand at a glance over labels you have to read.
-
-### 🗣️ Voice — Who She Sounds Like
-
-| Influence | What it contributes |
-|-----------|---------------------|
-| 🎸 Willie Nelson | Outlaw integrity, roots, calm wisdom |
-| 🎤 Tupac | Raw truth, fire, never fake |
-| 😎 Snoop Dogg | Smooth confidence, culture, ease |
-| 🥋 Bruce Lee | Precision, discipline — *"be like water"* |
-| ☮️ John Lennon | Vision, peace, imagination |
-| 🎓 The college kid | Swagger, energy, now |
-
-**The blend (working dials from the files):** 40% wisdom · 25% street · 15% humor ·
-10% technology · 10% rebellion — *default dial setting is Open Decision #5.*
-
-| ✅ Sounds like | ❌ Never sounds like |
-|---------------|---------------------|
-| "Alright, let's break this thing down." | Corporate jargon soup |
-| "Here's what we know. Here's what we don't." | Fake-gangster costume |
-| Plain words a neighbor understands | Stereotypical stoner mush |
-| Confident, warm, a little funny | A lecture, a disclaimer wall, or a hype man |
-
-### Secondary Palette (extended brand set)
-
-| Swatch | Name | Hex |
-|:------:|------|-----|
-| ![#0B6623](https://img.shields.io/badge/-%230B6623-0B6623?style=flat-square) | Forest Green | `#0B6623` |
-| ![#00A86B](https://img.shields.io/badge/-%2300A86B-00A86B?style=flat-square) | Emerald | `#00A86B` |
-| ![#7FFF00](https://img.shields.io/badge/-%237FFF00-7FFF00?style=flat-square) | Lime | `#7FFF00` |
-| ![#CC5500](https://img.shields.io/badge/-%23CC5500-CC5500?style=flat-square) | Burnt Orange | `#CC5500` |
-| ![#4B0082](https://img.shields.io/badge/-%234B0082-4B0082?style=flat-square) | Deep Violet | `#4B0082` |
-| ![#F5F5DC](https://img.shields.io/badge/-%23F5F5DC-F5F5DC?style=flat-square) | Off White / Bone | `#F5F5DC` |
-| ![#8A2BE2](https://img.shields.io/badge/-%238A2BE2-8A2BE2?style=flat-square) | Royal Purple | `#8A2BE2` |
-| ![#32CD32](https://img.shields.io/badge/-%2332CD32-32CD32?style=flat-square) | PotGrow Green | `#32CD32` |
-
-### Design Languages We Speak
-
-Glassmorphism 🪟 · Claymorphism 🧱 · Neo-brutalism 🏗️ · Holographic UI 🌈 · Cosmic 🌌 ·
-Organic 🌿 — unified under our own house language: **Smoke Morphism** 💨 (everything
-emerges, drifts, and dissolves like smoke; nothing snaps or pops).
-
-### Logo Rules
-
-| ✅ Do | ❌ Don't |
-|-------|----------|
-| Cosmic brand symbol: leaf + portal + neural network | Cartoon characters |
-| Golden rotating hemp-leaf emblem | Clipart |
-| Clean geometry that survives at favicon size | A generic stock pot leaf |
-| Clear space around the mark; minimum sizes respected | Stretching, recoloring off-palette, busy backdrops |
-
-### Typography Alternates (per surface)
-
-| Surface | Stack |
-|---------|-------|
-| Spatial flagship | Futura / Roboto / Poppins |
-| Platform portal | Inter / Roboto / Poppins on dark `#0b100e` |
-| Editorial / long reads | Space Grotesk / Poppins |
-| Data / dashboards | Orbitron accents + Fira Code figures |
-
----
-
-## 📚 8 · Knowledge Rules — The AI Never Invents
-
-> 🔴 **The plain-language law (Ray's standing rule):** everything written for a human must be
-> understandable by a person of **average education**. Hard words get explained in plain
-> words *right where they appear* — or swapped for the plain word. Example:
-> *terpenes* = **"smell and flavor oils."**
-
-| Rule | How it works |
-|------|--------------|
-| 🏷️ **Three labels, always** | Every fact the AI serves is **Verified** ✅, **Estimated** 🟡, or **Generated** 🎨 — and it says which |
-| ✅ **Verified means verified** | A claim becomes Verified only with **2 independent sources**, or **1 primary source + no conflicts** |
-| ⚔️ **Conflicts stay contested** | Two sources disagree → the fact is marked **Contested**. Never silently averaged into a fake answer |
-| 🚫 **No invented numbers** | The platform never publishes a count it cannot show. (The image library count is honestly listed as *unknown* until it's actually counted) |
-| 🌿 **The strain database** | Ray's ~2,350-row strain file is registered as **owner-stated / unverified** until it passes through the import pipeline |
-| 🧪 **Import pipeline** | File → parse → check against sources → verified facts land, conflicts flag, junk stops |
-| 🏥 **No medical claims** | No diagnosing, no dosage advice, no disease-treatment claims. Education only, with "check with a professional" where it matters |
-| 🎲 **Simulations say so** | A virtual cross or virtual grow is a **teaching toy** — it labels its output *"a rough guess, not a promise"* and never promises yield |
-| 👤 **Human handoff** | Legal, health, money, or anything the data can't support → a real human, not a confident guess |
-
-### The AI Answer Contract
-
-Every budtender answer follows the same shape — so a visitor can trust the *format* even
-before they trust the content:
-
-| Part | Rule |
-|------|------|
-| 1 · Direct answer | The plain answer first, in plain words |
-| 2 · The label | ✅ Verified / 🟡 Estimated / 🎨 Generated — stated, not implied |
-| 3 · The why | The reason and the source it came from |
-| 4 · The options | Max **3** recommendations, each with its plain reason |
-| 5 · The door | A human handoff offered whenever the data runs out |
-
-### Hallucination Handling (from the system docs)
-
-| Confidence | Handling |
-|------------|----------|
-| 🟢 High (matches knowledge base) | Serve it |
-| 🟡 Medium | Re-check against a second source before serving |
-| 🔴 Low | Flag it, soften it, or hand off to a human — never serve it straight |
-
-Cross-checks run against the verified knowledge base. No unsupported medical or legal
-claims. No fabricated product data, pricing, or availability — if it isn't in the data,
-the answer is the fallback line and a path to a human.
-
----
-
-## 👻 9 · Ghost Commerce — The Zero-Inventory Engine
-
-**Demand exists first. Production and procurement happen afterward.**
-
-```text
-🔍 DISCOVER → 📖 RESEARCH → ⚖️ COMPARE → 🏅 SCORE → 🌱 SOURCE → 💲 PRICE
-   → 💡 RECOMMEND → ✅ APPROVE → 🛒 PROCURE → 🏭 PRODUCE → 📦 FULFILL
-   → 🚚 DELIVER → 📊 ANALYZE → 🔁 REPEAT
-```
-
-### 🏅 The Supplier Score (published, not secret)
-
-| Factor | Weight |
-|--------|:------:|
-| In-stock confidence | 30% |
-| On-time record | 20% |
-| Landed margin | 15% |
-| Defect / return rate | 15% |
-| Distance to customer | 10% |
-| **Verified** sustainability | 10% |
-
-### 🌳 The GanjaGroot Authority Ladder (who may do what)
-
-| Level | Actions | Who approves |
-|-------|---------|--------------|
-| 🟢 **Automatic** | Catalog search, approved-knowledge lookups, drafting (reviewed before publish) | The system |
-| 🟡 **Approval required** | Preparing supplier orders, price changes, refunds | A named human |
-| 🟠 **Explicit permission + audit** | Customer-data export | Named human, logged |
-| 🔴 **Human-only** | Payment settings | Only a human, ever |
-| 🔴 **Explicit authorized approval** | Triggering supplier payments | Named human, logged |
-
-> 📝 Every sensitive action is logged: who started it, what authority check ran, what happened.
-
-### 📏 Ghost Commerce Hard Rules
-
-| Rule | Why |
-|------|-----|
-| 🌱 **Eco is a gate, not a sticker** | No evidence → `blocked_non_eco`. The product is replaced with a proven alternative, never greenwashed |
-| 🧾 **Four separate approvals** | Product approval ≠ merchant approval ≠ payment approval ≠ destination approval. Passing one proves nothing about the others |
-| 💰 **Never hold merchant money** | The platform does not pool or hold other people's funds without the legal structure to do it |
-| 🔍 **Supplier due-diligence gate** | Identity, fulfillment proof, and claims evidence checked *before* a supplier's first order |
-| 🏗️ **Build once** | Anything ReeferDude needs that another merchant could use becomes a PotGrowHub platform capability |
-| 💱 **Intercompany honesty** | A ReeferDude→PotGrowHub fee is internal — it's eliminated in consolidated valuation, never double-counted |
-
-### Ghost Listings — How a Shelf Builds Itself
-
-| Mechanic | How it works |
-|----------|--------------|
-| 🪄 **On-demand listings** | A listing is *generated from a visitor's intent*, not warehoused forever — the catalog is dynamic per person |
-| 📡 **Demand signals** | Searches with no match become signals: the system learns what to source next instead of showing a dead end |
-| 🛡️ **Self-healing supply** | A supplier fails → the request re-routes to the next scored supplier; the customer sees a status, not a collapse |
-| ♻️ **Auto-replacement** | A non-compliant or unproven-eco product is rejected and replaced with a qualifying alternative — with the reason shown |
-| 🏷️ **Per-item sustainability score** | Material impact · shipping distance · recyclability · production method — shown on the item, not buried |
-
----
-
-## ⚖️ 10 · Compliance — Blocked, Not Disclaimed
-
-> 🔴 **The core rule:** a restricted product in a restricted place is **blocked** — it never
-> reaches the cart behind a fine-print disclaimer. The compliance engine checks
-> **product × destination × customer × channel** before anything can move.
-
-### 🛣️ The Five Compliance Lanes
-
-| Lane | Covers | Posture |
-|:----:|--------|---------|
-| 1 | General lifestyle goods | Open |
-| 2 | Industrial hemp, non-cannabinoid | Open with checks |
-| 3 | CBD / cannabinoid products | Gated — jurisdiction-checked |
-| 4 | Licensed cannabis | Separate regulated program only |
-| 5 | Education & software | Open |
-
-### 📅 Dates That Shape the Design (design inputs, not sales deadlines)
-
-| Date | What changes |
-|------|--------------|
-| **Nov 12, 2026** | Cannabinoids the plant can't naturally make (synthetic/converted types) lose hemp status |
-| **Dec 11, 2026** | Federal cap: **0.4 mg total THC per container** for hemp products |
-
-*The live catalogs are demos with no real checkout — these dates shape what the new build may
-carry. Only Ray decides the product mix.*
-
-### 💳 Payment Stance
-
-| Provider | Status |
-|----------|--------|
-| Square | ❌ Out for hemp — hemp-primary accounts closed Nov 5, 2026 |
-| Stripe | ❌ Not a fallback — cannabis/CBD restricted; **never auto-wired** |
-| Organic Payment Gateways | 🟡 Hemp-aware shortlist — unverified, application pending Ray |
-| Vector Payments | 🟡 Hemp-aware shortlist — unverified |
-| Adaptiv Payments | 🟡 Hemp-aware shortlist — unverified |
-
-> 🔴 No payment rail gets connected until a provider approves **the actual business model**
-> in writing. No simulated payment success. No pretend integrations.
-
-### 🎁 Rewards & Attention — The Honest Version
-
-| ✅ We do | ❌ We never do |
-|----------|----------------|
-| XP / Budz / KushCoin for **learning and contributing** | Reward consumption itself |
-| Auditable reward ledger, reversed on refunds | Chance mechanics, loot pressure, gambling shapes |
-| Recommendations that carry a **plain reason** | Dark patterns, fake scarcity, fake countdowns |
-| Calm mode + daily caps the **user** controls | "Attention harvesting," dopamine-loop engineering |
-| Satisfaction and returns as the scoreboard | Paid-for-clicks, bot traffic, fake engagement |
-
-*This line is permanent. It was refused once, in writing, and the refusal is part of the design.*
-
-### The Trust Surfaces (every one must exist before scale)
-
-| Surface | Live on reeferdude.com today |
-|---------|:----------------------------:|
-| Privacy Policy | ✅ |
-| Terms of Service | ✅ |
-| Refund Policy | ✅ |
-| Shipping & Returns | ✅ |
-| Age Policy | ✅ |
-| Cookie Policy | ✅ |
-| Affiliate Disclosure | ✅ |
-| Health Disclaimer | ✅ |
-| Do Not Sell My Info | ✅ |
-| Lab Results / COAs page | ✅ |
-| Accessibility statement | ✅ |
-| DMCA | ✅ |
-
-*All twelve sit inside the live 86-URL sitemap — the trust layer is not vaporware.*
-
-### State Notes That Matter to an Ohio Build
-
-| Note | Detail |
-|------|--------|
-| 🏠 Ohio SB 56 | Live since **March 20, 2026** — the home-state rulebook |
-| 🌽 Illinois | Flips with the federal synthetics change **Nov 12, 2026** |
-| 🌳 New Jersey | Follows **Nov 13, 2026** |
-| Rule of thumb | Law is a moving target → jurisdiction rules live as **data** in the platform (`jurisdiction_rules`), updated without rebuilding the site |
-
----
-
-## 💰 11 · Business Model & Money Map
-
-### 🎯 First Sellable Product
-
-> **Merchant Workspace + Ghost Commerce Starter** — onboarded by hand first.
-> Sell one working loop to real merchants before building the hundred-page universe.
-
-### 🚦 Stage Gates (counted in *external paying customers*)
-
-| Stage | Customers | What it proves |
-|-------|:---------:|----------------|
-| 🧪 Pilot | 3–5 | A stranger will use it |
-| 🌱 First commercial | 5–10 | A stranger will **pay** for it |
-| 📈 Early validation | 25–50 | It repeats without the founder pushing |
-| 🚀 Growth | 100+ | Channels work |
-| 🏭 Scale | 500+ | The platform is the business |
-
-### 💵 Revenue Engines
-
-| When | Engines |
-|:----:|---------|
-| 🟢 **Now** | Affiliate gear · dropship margin · print-on-demand / 3D print-on-demand |
-| 🟡 **Next** | Booking & services · memberships ($19/$49/$99) · sponsored education · B2B merchant verification |
-| 🔵 **Later** | White-label AI budtender · Knowledge API · AR modules · merchant SaaS |
-| 🔴 **Gated** | Delivery — only as a licensed, operational program. Never advertised before it exists |
-
-<details>
-<summary><b>🎯 Long-term revenue mix target (from the monetization architecture)</b></summary>
-
-| Stream | Target |
-|--------|:------:|
-| Subscriptions | 20% |
-| AI services | 15% |
-| Ghost marketplace | 15% |
-| Creator economy | 10% |
-| Dream-It Studio | 10% |
-| Blueprint Engine | 10% |
-| Consultations | 8% |
-| Academy | 5% |
-| Advertising (labeled, controlled) | 3% |
-| Partnerships | 2% |
-| Licensing | 1% |
-| Data & insights (aggregated, transparent) | 1% |
-
-**Creator split example:** 85/15 in the creator's favor.
-
-</details>
-
-### 📊 Operating Targets
-
-| Metric | Target |
-|--------|--------|
-| Gross revenue retention (GRR) | > 90% |
-| Net revenue retention (NRR) | > 110% |
-| Software gross margin | → 75%+ |
-| Single-customer share of revenue | Never > 10% |
-
-> 💎 **Valuation honesty:** the files carry big numbers ($5M–$15M MVP … $250M–$1B+ autonomous
-> ecosystem). Those are **milestone ambitions, not appraisals**. The grounded reference:
-> ~$20M ARR × ~5× ≈ $100M; the conservative private-SaaS median multiple is ~3.1×.
-> We quote the ambition as ambition and the math as math.
-
-### The PotGrowHub B2B Pricing Ladder (test hypothesis #4)
-
-| Tier | Price/mo | For |
-|------|--------:|-----|
-| 🆓 Explorer | $0 | Look around, learn the shape |
-| 🌱 Starter | $29 | First real shop |
-| 📈 Growth | $79 | Selling steady |
-| 🔥 Pro | $199 | Multi-channel operator |
-| 🏭 Scale | $499 | Volume + team |
-| 🏢 Enterprise | Custom | White-label / API |
-
-> ⚠️ Every pricing ladder in the files is an **unvalidated test hypothesis** — including this
-> one and the $19/$49/$99 consumer tiers. Prices get believed when customers pay them,
-> not when documents print them.
-
-### Monetization Guardrails (Master Blueprint)
-
-Disclose affiliates, always · no false scarcity · no fake counters · no fabricated reviews ·
-never sell sensitive customer profiles · advertising labeled as advertising · PPC/PPV and
-header bidding only enter when real traffic volume makes them honest.
-
----
-
-## 🔍 12 · SEO / AEO — The Money Loop
-
-> **The goal is not more traffic. The goal is qualified discovery that ends in a
-> measurable commercial action.**
-
-```text
-🔎 QUERY → 📖 USEFUL ANSWER → 🛍️ RELEVANT PRODUCT / TOOL → 👆 CLEAR ACTION → 📊 MEASURED OUTCOME → 🔁 REPEAT
-```
-
-### 📄 The Answer-First Page Pattern
-
-Every money page follows the same skeleton: **question title → direct answer (40–80 words
-that stand alone) → decision table → method & evidence → one clear next action → author &
-review date.** One URL, one primary question, one primary action.
-
-### 🥇 The First 12 Money Pages
-
-| # | Page | Job |
-|:-:|------|-----|
-| 1 | Grow-light size calculator | Answer "what light fits my tent?" with math |
-| 2 | Light comparison table | LED vs the rest, honestly |
-| 3 | Ventilation CFM calculator | Size the fan to the room |
-| 4 | Beginner setup checklist | The whole first setup, one list |
-| 5–7 | 2×2 / 3×3 / 4×4 tent equipment pages | Complete kit per tent size |
-| 8 | Carbon-filter / fan matching guide | The pair that must match |
-| 9 | LED vs other lighting | Decision page |
-| 10 | Automated watering starter guide | First automation win |
-| 11 | Category pages | Clean, crawlable shelves |
-| 12 | Founder / editorial + policy pages | The trust layer everything stands on |
-
-### 🪪 Verified IDs (use THESE — older files carry dead ones)
-
-| Service | Current ✅ | Dead ❌ (in old files) |
-|---------|-----------|------------------------|
-| Google Tag Manager | `GTM-5JXBTPJR` | `GTM-KN8SMF48` |
-| Google Analytics 4 | `G-KKBPGV74KK` | `G-9MW3MB134F` |
-| Google tag | `GT-M397NHT5` | — |
-| AdSense publisher | `ca-pub-4750157756501290` | `ca-pub-1097964798960926` |
-| AdSense customer | `7291259906` | — |
-
-**ads.txt (the live, correct line):**
-
-```text
-google.com, pub-4750157756501290, DIRECT, f08c47fec0942fa0
-```
-
-### 📐 Performance & Honesty Targets
-
-| Rule | Target |
-|------|--------|
-| Largest Contentful Paint | ≤ 2.5s |
-| Interaction to Next Paint | ≤ 200ms |
-| Cumulative Layout Shift | ≤ 0.1 |
-| Structured data | Describes **reality only** — merchant markup only where we are actually the seller |
-| Reviews / ratings | Real or absent. **Never fabricated** |
-| Checkout state | If buying isn't operational, the button says *Join waitlist* / *Request quote* — never a fake confirmation |
-
-### 📊 Minimum Event Taxonomy
-
-`view_item` · `select_item` · `affiliate_click` · `add_to_cart` · `begin_checkout` ·
-`purchase` · `email_signup` · `ai_rec_click`
-
-### 📁 Root File Set (each domain keeps its own)
-
-`robots.txt` · `sitemap.xml` · `ads.txt` · `llms.txt` · `security.txt` · `humans.txt` ·
-`manifest.json` · `service-worker.js` — with each domain's robots.txt pointing at **its own**
-sitemap. *(Known live defect: reeferdude.com's robots.txt currently points at the store's
-sitemap, and its /ads.txt returns 404 — fixes are written and waiting on a builder-side
-change; see Section 19.)*
-
-### First Topic Clusters (where the content gravity starts)
-
-| Cluster | Example questions it answers |
-|---------|------------------------------|
-| 💡 Grow lights | "What size light for a 3×3?" |
-| 🌬️ Ventilation | "What CFM do I actually need?" |
-| ⛺ Grow tents | "What's a complete 4×4 setup?" |
-| 💧 Watering | "Can I automate watering cheaply?" |
-| 🧰 Accessories | "Which grinder lasts?" |
-
-### AEO — Writing for the Answer Engines
-
-Conversational queries are the target ("what's good for sleep?", "how do I clean this
-grinder?") · answers stand alone at 40–80 words · entities stay consistent across every page
-(same names, same facts — the AI engines notice drift) · backlinks are **earned through
-usefulness, never bought or blasted** · legal info is never auto-translated · SEO content
-must remain readable with JavaScript off.
-
-### Multilingual Architecture
-
-`hreflang` done properly · critical translations reviewed by a human · the manifest already
-carries es/fr groundwork · plain-language rule applies in *every* language — jargon explained
-in the reader's tongue, not just ours.
-
----
-
-## 🛠️ 13 · Tech Stack & Platform Status
-
-### 🧱 The Locked Stack
-
-| Layer | Choice |
-|-------|--------|
-| Frontend | React + TypeScript + Vite |
-| Backend | Node.js + Express — **modular monolith** (no microservice sprawl) |
-| Database | PostgreSQL, multi-tenant (`organization_id` on everything, row-level security enforced) |
-| 3D / AR / VR | Three.js · WebXR · model-viewer |
-| AI | Provider-independent adapter — swap brains without rebuilding the body |
-| Local AI (optional) | Ollama-class local models for offline/private work |
-| Payments | Modular slot — **empty until a hemp-aware provider approves the model** |
-| Hosting (today) | IONOS builder (reeferdude.com) · GitHub Pages (store origin) — *see Decision #4* |
-
-### ✅ Platform Foundation — BUILT & VERIFIED (Oct 31, 2026)
-
-| Fact | Detail |
-|------|--------|
-| Location | `~/workspace/potgrowhub/` — local dev only, not deployed |
-| Database | **67 tables** across migrations 001–004, all tenant-isolated with forced row-level security |
-| Checks | **56 / 56 end-to-end checks passed** on a real PostgreSQL — including a proof that one tenant cannot see another's data |
-| Built | Accounts & sessions · workspaces & teams · dashboard · Dream-It Studio records · Strain Lab + import pipeline · Ghost Commerce tables + eco gate · verified-knowledge registry · plain-language checker |
-| Demo login | In the project README inside the platform package (ask for the handoff if you don't have it) |
-
-### 🚧 Not Built Yet (honest list)
-
-Ghost workflow run-screen · 2D canvas + WebXR viewer front-end · the live AI chat wired to
-verified knowledge · real strain CSV import (needs Ray's file) · catalog/orders screens ·
-invitation emails · anything deployed publicly.
-
-### The 12 Data Domains in the Platform Database
-
-Identity & tenancy · commerce core · billing & plans · knowledge · AI conversations & tool
-runs · workflows · creators & designs · learning · jurisdiction & compliance · reviews ·
-events & metrics · consent & access logs — **67 tables**, every tenant table carrying
-`organization_id` and sealed by forced row-level security.
-
-### Local Addresses & the Command System (from the From-Scratch plan)
-
-| Thing | Address / command |
-|-------|-------------------|
-| Portal (running today from the foundation build) | `http://localhost:5173` |
-| API | `http://localhost:4000` (health at `/health`) |
-| Planned flagship dev targets | frontend `:3000` · API `:4100` · PostgreSQL `:5432` (db `reeferdude`) |
-| `.\REEFER.ps1` verbs (planned) | `setup` · `build` · `start` · `stop` · `test` · `repair` · `backup` · `offline` · `online` · `database` · `status` · `deploy` |
-
-*Scripts log everything, stop safely, and are idempotent — run them twice, nothing breaks twice.*
-
-### The PowerShell Rule (house law for anything Ray runs)
-
-Terminal deliverables for Ray's Windows PC arrive as **one copy-paste-ready PowerShell
-block** — no bash, no `export`, no real-curl syntax, no Python. Big files travel by a short
-`Invoke-WebRequest` downloader, never as pasted walls of text.
-
----
-
-## 🗓️ 14 · Roadmap & Do-Not-Build List
-
-| Phase | Window | The job |
-|-------|--------|---------|
-| 🧱 **Foundation** | Days 0–30 | Trust surfaces live, analytics events firing, one clean money loop designed |
-| 🔁 **Prove one loop** | Days 31–90 | ONE supplier end-to-end · ONE POD collection · 3 tested 3D products · source-grounded assistant · Budz for learning |
-| 📈 **Repeatability** | Months 4–6 | The loop runs without heroics; second and third merchants onboarded by hand |
-| 🚀 **Scale what proved itself** | Months 7–12 | Grow only the lanes with receipts |
-
-### 🚫 Do Not Build Yet
-
-| ❌ Don't | Why |
-|----------|-----|
-| A huge marketplace before one supplier works end-to-end | Scale multiplies whatever exists — including broken |
-| A virtual world with no measurable customer job | Pretty is not a business |
-| Token / cash-out points without legal design | Regulators first, mechanics second |
-| National cannabis delivery claims | It doesn't exist yet; saying so would be a lie |
-| Medical personalization or dosage advice | Out of scope, out of bounds |
-| Thousands of AI pages without evidence | Thin pages are a value *destroyer* |
-| A custom backend for a solved problem | Buy/borrow boring; build only the magic |
-
-### Scorecard & Go / No-Go Gates
-
-| Gate | Question it asks |
-|------|------------------|
-| 🧱 Foundation exit | Are trust surfaces live, events firing, and the money loop designed on paper? |
-| 🔁 Loop exit | Did ONE supplier, ONE POD collection, and 3 printed products survive real orders? |
-| 📈 Repeatability exit | Does the loop run a week with no founder heroics? |
-| 🚀 Scale entry | Are GRR > 90% and support load survivable? If not — **no-go**, fix the loop |
-
-> A failed gate is information, not shame. The kill criteria live in
-> [Section 34](#-34--risk-register--kill-criteria).
-
----
-
-## ⚖️ 15 · Open Decisions — Ray's Calls
-
-> These six conflicts live **inside the source files themselves**. They are deliberately
-> **not** silently resolved here. Each needs one ruling from Ray; everything downstream
-> (printing, publishing, naming, building) waits on them.
-
-| # | Decision | Option A | Option B | Current default in builds |
-|:-:|----------|----------|----------|:--------------------------:|
-| 1 | 🎂 **Age gate** | **21+** (keeper page text) | **18+** (hall.txt, live sites) | 18+ |
-| 2 | 🌸 **AI public name** | **Kali Kush** (locked blueprint) | **GanjaGuru / GanjaGoddessAI** (hall, keeper, checklists) | Hall names |
-| 3 | 👑 **Flagship domain** | **reeferdude.com** (locked Oct 26) | potgrowhub.store (old files — backwards) | reeferdude.com |
-| 4 | 🏠 **Hosting / build model** | Real local-first app (React + PostgreSQL, offline-capable) | Static GitHub Pages | Real app (platform exists) |
-| 5 | 🗣️ **Default voice** | "Calm, not stoned" (Master Blueprint) | Mountain-boy hustler (keeper/hall) | Blend |
-| 6 | 📏 **Scale vs proof** | 200+ page types, 100k+ entities (vision files) | Proof-first roadmap (blueprints) | Proof-first |
-
-**How to rule:** one line each — *"1B, 2A, 3A, 4A, 5 blend, 6B"* is a complete ruling.
-
-### What Each Ruling Unlocks (and what it blocks)
-
-| # | If Ray rules… | It unlocks | Until then, blocked |
-|:-:|---------------|------------|----------------------|
-| 1 | Age gate | Final gate copy everywhere, ad-network eligibility checks | Printing the gate age on anything permanent |
-| 2 | AI name | Merch, voice casting, logo lockups | Any "final" branding with either name |
-| 3 | Flagship | All canonical tags, sitemaps, GBP website field | Treating any old file's hierarchy as truth |
-| 4 | Hosting | The rebuild's deployment path + budget | Connecting the Gravity-Gone build to the domain |
-| 5 | Voice | The tone guide becomes enforceable | Copy reviews stay judgment calls |
-| 6 | Scale vs proof | Team can plan the page universe timeline | Nothing — proof-first is the safe default |
-
----
-
-## 📖 16 · Glossary — The Brand Dictionary
-
-*Every hard word, in plain words. This glossary IS the plain-language rule, applied.*
-
-| Term | Plain-words meaning |
-|------|---------------------|
-| **AEO** | Answer Engine Optimization — writing so AI assistants can quote your answer directly |
-| **AR** | Augmented reality — seeing a digital object sitting in your real room through your phone |
-| **Budz** | The rewards balance you earn for learning and contributing |
-| **Cannabinoids** | The active ingredients in the plant (THC, CBD, and their cousins) |
-| **CFM** | Cubic feet per minute — how much air a fan moves; how you size ventilation |
-| **Compliance lane** | One of the five legal categories a product falls into (Section 10) |
-| **Contested** | Two sources disagree, so we say so instead of picking one quietly |
-| **Dropshipping** | The supplier ships straight to the customer; we never touch the box |
-| **Eco gate** | The hard stop: no proof of the green claim, no listing |
-| **Gamification** | Game pieces — points, levels, badges — used to reward real learning |
-| **Ghost Commerce** | Selling without shelves: find it and make it only when someone wants it |
-| **Gravity-Gone** | Our spatial interface — floating islands, an orbit menu, no fixed homepage |
-| **Header bidding** | Many ad buyers bidding at once for the same ad spot (only worth it with real traffic) |
-| **KushCoin** | The XP-side currency shown in the header; tracks progress and status |
-| **Lineage** | A strain's family tree — parents, grandparents, children |
-| **Merchant Workspace** | The business dashboard a seller runs their shop from |
-| **POD / 3DPoD** | Print-on-demand / 3D print-on-demand — made one at a time, after it's ordered |
-| **PPC / PPV** | Pay-per-click / pay-per-view — ad pricing shapes |
-| **Procurement** | The buying of supplies on someone's behalf — *"we hunt it down and buy it for you"* |
-| **Programmatic ads** | Ads placed by software automatically instead of by a person making calls |
-| **RLS** | Row-level security — the database itself refuses to show one tenant another's data |
-| **SEO** | Search Engine Optimization — being findable on Google the honest way |
-| **Socket, The** | The core metaphor: plug in an idea, outcomes come out |
-| **Terpenes** | **Smell and flavor oils** — the compounds that make one strain smell like lemons and another like pine |
-| **Tenant** | One business inside the platform, sealed off from every other business |
-| **VR** | Virtual reality — stepping *inside* a digital room with a headset |
-| **XP** | Experience points — progress you earn, mostly by learning and doing |
-| **Zero inventory** | Holding no stock; everything is sourced or made after real demand appears |
-
-### Extended Glossary: Grow-Room & Tech Words in Plain Words
-
-| Term | Plain-words meaning |
-|------|---------------------|
-| **VPD** | Vapor pressure deficit — how thirsty the air makes the plant; the comfort number for a grow room |
-| **PPFD** | How much usable light actually lands on the leaves |
-| **DLI** | The day's total light meal — PPFD added up over the day |
-| **EC** | Electrical conductivity — how strong the nutrient soup is |
-| **pH** | How sour or soapy the water is; plants only eat in a narrow band |
-| **STL / 3MF** | The file shapes a 3D printer reads |
-| **Service worker** | The behind-the-scenes script that lets the site work offline |
-| **Structured data / schema** | Labels written for search engines and AI, describing what a page actually is |
-| **Hreflang** | The tag that tells Google "this page also exists in Spanish" |
-| **Funnel** | The path a visitor walks from first click to finished outcome |
-| **ARR** | Annual recurring revenue — subscription money counted by the year |
-| **GRR / NRR** | How much subscription money stays (gross) / stays and grows (net) |
-| **IndexedDB** | The browser's built-in storage drawer — where offline data waits to sync |
-| **Webhook** | A doorbell one system rings at another ("an order just happened!") |
-
----
-
-## ❓ 17 · FAQ
-
-<details>
-<summary><b>🌿 Do you sell cannabis?</b></summary>
-
-No. The live sites say it on the banner: **gear, design, and know-how — no cannabis sold
-here.** Ingestibles, seeds, and delivery are separate regulated programs that open only with
-proper licensing, jurisdiction checks, and the owner's explicit call.
-
-</details>
-
-<details>
-<summary><b>🤖 Is the AI a real brain or a demo?</b></summary>
-
-Honest answer: today it's a **demo brain** — it answers from the site's own checked data and
-says so. The verified-knowledge system behind it is built; wiring a full AI provider into it
-is a later, deliberate step. It will never be allowed to invent products, prices, laws, or
-facts — the rules in Section 8 are enforced by design, not by politeness.
-
-</details>
-
-<details>
-<summary><b>👻 How does a store work with no inventory?</b></summary>
-
-You ask for something → Ghost Commerce finds suppliers → scores them on a published formula
-→ a human approves → the supplier ships it or a maker prints it → you track it the whole way.
-Demand first. Shelves never.
-
-</details>
-
-<details>
-<summary><b>🎨 Can I really design my own piece?</b></summary>
-
-In Dream-It Studio, yes: pick the piece, size it, color it, stamp your art on it, and see it
-in your own room with AR. Then the honesty gate: it only becomes "production ready" when a
-real production file exists **and a named human has approved it.** A pretty 3D preview is
-not proof something can be manufactured — and we won't pretend otherwise.
-
-</details>
-
-<details>
-<summary><b>💳 Why can't I just check out?</b></summary>
-
-Because hemp payment processing is a regulated door, not a plugin. Square is out for hemp;
-Stripe restricts this category. We connect a rail only when a hemp-aware provider approves
-**this actual business model** — until then, waitlist and quote flows tell the truth instead
-of faking a checkout.
-
-</details>
-
-<details>
-<summary><b>🧒 Who is this for?</b></summary>
-
-Adults of legal age where they live (18+ or 21+ — see Open Decision #1). Nobody younger,
-nothing where it's illegal, no exceptions dressed up as disclaimers.
-
-</details>
-
-<details>
-<summary><b>🏢 I'm a merchant. What do I get?</b></summary>
-
-The Merchant Workspace + Ghost Commerce Starter: your own sealed workspace, a catalog that
-sources without inventory, and automation that still asks a human before money moves.
-Onboarding is by hand during the pilot — that's deliberate.
-
-</details>
-
-<details>
-<summary><b>Extended FAQ (click to open)</b></summary>
-
-**🔐 Is my data sold?**
-No. Sensitive profiles are never sold — that line is in the monetization guardrails.
-Aggregated, anonymous insight ("growers in Ohio search lights in March") is a possible
-later business; identifiable you is not a product.
-
-**📴 Does it work offline?**
-That's the plan and the architecture (PWA + service worker + IndexedDB): browse, design,
-and queue offline; sync when the connection returns, with conflicts resolved visibly —
-never silently overwritten.
-
-**🎙️ Can I run the whole thing by voice?**
-Voice-only mode is a required fallback in Gravity-Gone: trigger, command field, and island
-control all answer to speech where the browser supports it, with a graceful message where
-it doesn't.
-
-**🆘 What happens when the AI doesn't know?**
-It says so, uses the fallback line, and offers a human. A budtender who admits the edge of
-the map is worth ten who invent products to sound smart.
-
-**🧾 I'm a supplier. How do I get in?**
-Through the due-diligence gate: identity, fulfillment proof, and evidence for every claim
-you make — especially the green ones. Pass that and the scoreboard (Section 9) decides
-your volume, not a sales call.
-
-</details>
-
----
-
-## 🔗 18 · Link Directory
-
-| Destination | Link / Location |
-|-------------|-----------------|
-| 🌐 Flagship site | [reeferdude.com](https://reeferdude.com) |
-| 🛒 Store engine | [potgrowhub.store](https://potgrowhub.store) *(currently forwarded to reeferdude.com by the owner, "for now")* |
-| 📄 Combined Master Vision | `~/workspace/your_files/reeferdude-potgrowhub-master-vision.md` |
-| 📘 PotGrowHub Master Blueprint | `~/workspace/your_files/potgrowhub-master-blueprint/` |
-| 🔍 AEO/SEO Revenue Enhancers | `~/workspace/your_files/aeo-seo-revenue-enhancers/` |
-| 🏗️ Platform source (local) | `~/workspace/potgrowhub/` |
-| 🪐 Gravity-Gone preview | Muse artifact: **ReeferDude — Gravity-Gone** (preview only, not published) |
-| 🖼️ Site image library | `~/workspace/your_files/site-images/` (11 verified images) |
-| 🐙 GitHub (store repo) | `reeferguyai/Potgrowhubstore` |
-| 🐙 GitHub (flagship repo) | `reeferguyai/Reeferdude` *(repo pages are not what the live domain serves)* |
-
-### The Asset Shelf (things that exist and can be linked today)
-
-| Asset | Location / note |
-|-------|-----------------|
-| 🖼️ 11 verified site images | `~/workspace/your_files/site-images/` — studio goddess, ghost commerce, AR/VR, knowledge goddess, terpenes, rewards, budtender hologram, membership emblems, telemetry, legal shield, strain family tree |
-| 🌸 Goddess reference art | `~/workspace/user/files/7634_1_knqf.jpg` (verified image, the face-clear reference) |
-| 🗺️ Page-matching preview | `~/workspace/your_files/site-images/page-matching-preview.md` — all 11 images mapped to real store pages, awaiting per-image approval |
-| 📦 Platform package | `~/workspace/potgrowhub-platform-v0.1.0.zip` (107K, 61 files) |
-| 🏗️ Brand stack document | Goal files under `potgrowhub-store-hemp-shop-build-out` |
-| 🧬 Page-universe generator | `~/workspace/page-universe/` (build.py / engine.py / run.py) |
-| 📸 Homepage screenshots | `~/workspace/your_files/screenshots/` (both sites, Oct 31, 2026) |
-
----
-
-## 📍 19 · Honest Status — What Is Actually Live
-
-*Updated Nov 8, 2026. This section tells the truth even when the truth is "not yet."*
-
-| Thing | Real status |
-|-------|-------------|
-| reeferdude.com | ✅ Live — the IONOS AI-builder site (18+ gate, orbit menu, Ray the budtender). Builder credits are **exhausted**; it cannot be extended there |
-| potgrowhub.store | ✅ Live origin on GitHub Pages (321 sitemap URLs) — **forwarded to reeferdude.com** by Ray's own choice |
-| potgrowhub.com | ❌ Down — SSL error; the fix lives in a separate IONOS login that hasn't been located yet |
-| Gravity-Gone rebuild | 🟡 Working **preview** in Muse — not published, awaits Ray's walkthrough + approval |
-| Platform (PotGrowHub) | 🟡 Built & verified **locally** (67 tables, 56/56 checks) — not deployed anywhere |
-| Checkout | ❌ None anywhere — by design, until a hemp-aware processor approves the model |
-| reeferdude.com/ads.txt | ❌ Returns 404 — fix written, waiting on a builder-side path |
-| reeferdude.com/robots.txt | ⚠️ Points at the *store's* sitemap — fix written, same wait |
-| Revenue to date | $0 measured — no checkout exists. Anyone quoting otherwise is guessing |
-
-### Timeline — How We Got Here
-
-| When | Milestone |
-|------|-----------|
-| 🌱 Sep 2026 | The blueprint era — master blueprint + AEO/SEO revenue plan written |
-| 🔌 Oct 17, 2026 | reeferdude.com confirmed at IONOS; store DNS work begins |
-| 👑 Oct 26, 2026 | Asymmetric portfolio locked — reeferdude.com is the crown jewel |
-| 📸 Oct 28, 2026 | The keeper hero page captured (the screenshot standard) |
-| 🧱 Oct 31, 2026 | Locked blueprints signed · platform foundation built (56/56 checks) · 523-page universe pushed to the repos |
-| 🚧 Oct 31, 2026 | Ray hits pause — "look stop for now." Everything parks, nothing breaks |
-| ↩️ Nov 7, 2026 | Ray forwards the store to reeferdude.com himself; IONOS credits run out; rebuild ordered |
-| 🪐 Nov 7, 2026 | Gravity-Gone chosen; working preview built the same night |
-| 📚 Nov 8, 2026 | All source files merged into the Combined Master Vision; this README written |
-
----
-
-## ✍️ 20 · Credits, Ownership & Footer
-
-<div align="center">
-
-**Owned by Raymond Meadows & Jessica Mullins**
-
-🌿 Franklin / Middletown · Warren County · Ohio 🌿
-
-| | |
-|---|---|
-| 💚 **Built for** | Bella — so she never has to struggle |
-| 🛠️ **Build partners** | Ray (hands, vision, final say) · Glint (AI build partner) |
-| 📜 **License** | Proprietary — all rights reserved. Brand names, mythology, and system designs are the founders' property; trademark status to be verified before any ® claim is printed |
-
-<br/>
-
-![Made with](https://img.shields.io/badge/Made%20with-Hope%20%26%20%240-00D26A?style=flat-square)
-![Powered by](https://img.shields.io/badge/Powered%20by-Verified%20Facts%20Only-FFBF00?style=flat-square)
-![Forever rule](https://img.shields.io/badge/Forever%20Rule-Knowledge%20First.%20Hype%20Second.-6B46C1?style=flat-square)
-
-### *"Dream like a hippie. Think like an engineer. Move like a hustler. Execute like a martial artist."*
-
-🔌 **PLUG. PLAY. PUFF. REPEAT.** 🔌
-
-</div>
-
----
-
-<details>
-<summary><b>📚 Sources & provenance (the paperwork drawer)</b></summary>
-
-This README merges, in order of authority: Ray's locked decisions (Oct 26 & Oct 31, 2026) ·
-the Combined Master Vision (Nov 8, 2026) · `hall.txt` (Ray's master vision compilation) ·
-`port.txt` (section specs + the From-Scratch platform plan) · `fart.bin` (master checklists,
-root-file specs, 87-page inventory) · `reeferdude.bin` (the keeper page text) ·
-*PotGrowHub Master Blueprint* (Sept 2026) · *AEO/SEO Revenue Enhancers* (Sept 27, 2026).
-Where sources conflicted, the conflict is listed in Section 15 rather than papered over.
-Stale identifiers found in older files (dead AdSense/GTM/GA4 IDs, an old Stripe/PayPal plan,
-a backwards domain hierarchy) were corrected to the verified current values in Section 12.
-One pasted credential-like string found inside hall.txt is deliberately **not** reproduced
-anywhere in this document — if it was ever a real key, it should be rotated.
-
-</details>
-
----
-
-## 📜 21 · The Mythology — The Modern Outlaw & The Green Grid
-
-The brand carries a story, because a story is what people repeat when you're not in the room.
-
-### 🌿 The Creed (the Modern Outlaw, in short)
-
-Forged by trails, roads, and second chances. *"I don't meet strangers — I meet future
-friends."* Words as weapon and medicine. Marketing as a native language. Thirty-eight-plus
-years immersed in the culture. Curiosity as the superpower. **Stay curious, stay dangerous,
-stay teachable, stay grateful.** Legacy is measured by the wake you leave behind.
-
-### 🎬 "THE SEED" — the 60–90 second manifesto
-
-A single seed → consciousness → knowledge → technology → connection → creation → community.
-GanjaGuru narrates. It's the front door film of the whole universe: **Myth → Platform →
-Experience → "Enter the Green Grid."**
-
-### 👑 The Six Influences (archetypes — never claimed endorsements)
-
-| Influence | Archetype gifts |
-|-----------|-----------------|
-| Willie Nelson | Roots, wisdom |
-| Tupac | Fire, truth |
-| Snoop Dogg | Swagger, culture |
-| Bruce Lee | Discipline, precision |
-| John Lennon | Creativity, peace |
-| Overtime | Relentless hustle |
-
-### 🌐 The Green Grid & The HempPimp
-
-The Grid is the connected whole — every node (person, plant, product, idea) plugged into
-The Socket. The HempPimp archetype walks it in three faces: **the Guide** (teaches), **the
-Hustler** (builds), **the World** (the ecosystem itself).
-
-> **The golden lore rule:** mythology stays playful and self-aware. A casual visitor
-> understands the surface in 30 seconds; a fan can dig for hours. Depth is a reward,
-> never a toll.
-
----
-
-## 🎭 22 · The Persona Council — Who's on the AI Team
-
-One face, many hats. The visitor talks to **one** guide; behind her, specialists hand off
-to each other invisibly.
-
-| Specialist | Hat they wear | Owns |
-|------------|---------------|------|
-| 🧠 **GanjaGuru** | The orchestrator-guide | The conversation itself, routing, the final word |
-| 🛍️ **Budtender AI** | Product & strain guidance | Recommendations with plain reasons |
-| 🌱 **Grow Master AI** | Cultivation | Grow plans, troubleshooting, telemetry sense-making |
-| 🎨 **Design AI** | Creation | 3DPoD generation, AR visualization, decal work |
-| 💼 **Hustle AI** | Business coach | Monetization, affiliates, merchant guidance |
-| 📚 **Knowledge AI** | Librarian | Wiki, education, research — verified shelf only |
-| 📐 **Blueprint Agent** | Architect | Plans, budgets, shopping lists |
-| 🌱 **Procurement Agent** | Buyer | Supplier queries, scoring, order prep (approval-gated) |
-| ♻️ **Sustainability Agent** | Green referee | Eco evidence checks, `blocked_non_eco` calls |
-
-### 🧩 The Unified AI, in Nine Replaceable Services (platform plan)
-
-Conversation · knowledge retrieval · intent detection · voice · provider gateway ·
-local-model adapter (Ollama-class) · memory · tool execution & permissions · safety &
-validation. **Any one can be swapped without rebuilding the others** — that's what
-"provider-independent" buys us when a vendor changes its mind about hemp.
-
-### 🎚️ Voice Modes (she shifts register, never character)
-
-Chill 😌 · Street-smart 😎 · Engineer 🔧 · Bruce Lee 🥋 · Tupac 🎤 · Mountain-boy ⛰️ ·
-Entrepreneur 💼 · Guru 🧘 — chosen by context: emergencies get Bruce Lee precision,
-late nights get Snoop-and-Willie ease, governance gets Lennon-and-Tupac plainness.
-
----
-
-## 🎨 23 · Dream-It Studio — Deep Dive
-
-### 🛠️ The Builders
-
-| Builder | What you shape |
-|---------|----------------|
-| 🥤 **Bong Builder** | Chambers, percolators, bases, mouthpieces — stem & mouthpiece placement, carb placement (left / right / front / back / side / none), left- or right-handed, length, diameter, live color shaders |
-| 🥄 **Pipe Builder** | Form, material, finish |
-| 📦 **Grow Box Builder** | Stealth enclosures, tents, automated cultivation modules |
-| 🍽️ **Rolling Tray Designer** | Surface art, layout, compartments |
-| 👕 **Apparel Designer** | Print-on-demand clothing with your art on it |
-| 🔩 **Parts & Novelties** | Replacement parts, screens, brackets, clips, coloring books, stickers, stories, wall art |
-
-### 🔄 The Making Pipeline
-
-```text
-🎨 DESIGN → 👓 AR VALIDATE → 🛒 CHECKOUT (when rails open) → 📦 PAYLOAD
-   (.STL/.3MF for print · high-res vector for PoD) → 🌱 ECO NODE ROUTING
-   (hemp/PLA filaments · organic inks) → 🍄 MUSHROOM/HEMP PACKAGING
-   → 🚚 REGIONAL ECO COURIER → ⭐ XP EARNED
-```
-
-| Rule | Detail |
-|------|--------|
-| 🎨 Decal studio | Upload or AI-generate art; drag it onto the 3D model |
-| 📐 "Project in My Space" | Phone AR: rotate, resize, inspect at true scale |
-| 🥽 VR lab | Walk a custom grow room; changes in VR update the manufacturing payload |
-| 🔴 Honesty gate | `production_ready` needs a real production file + a named human approver — enforced by the API, not by trust |
-| 💲 Pricing honesty | Real-time estimate shown as an *estimate*, with the factors named |
-
----
-
-## 🧬 24 · Strain Lab — Deep Dive
-
-### 🌿 The Seed Library (platform-verified seed data)
-
-| Strain | Type | Notes |
-|--------|------|-------|
-| Blue Dream | Hybrid | ✅ Verified · parents: Blueberry × Haze · grandparent: Afghani |
-| Northern Lights | Indica | ✅ Verified |
-| Sour Diesel | Sativa | ✅ Verified |
-| Blueberry | Indica | 🟡 In library, verification pending |
-| Haze | Sativa | 🟡 In library, verification pending |
-| Afghani | Indica | 🟡 In library, verification pending |
-
-*Ray's full ~2,350-row file joins this shelf only through the import pipeline (Section 8).*
-
-### 🌱 The Virtual Grow (a teaching sim, doorsteps in days)
-
-| Stage | Day doorstep | What the sim teaches |
-|-------|:------------:|----------------------|
-| 🌰 Seed | 0 | Patience and moisture |
-| 🌡️ Germination | ~3 | Warmth, darkness, the taproot |
-| 🌿 Seedling | ~14 | Gentle light, no food yet |
-| 🌳 Vegetative | ~45 | Training, feeding, space math |
-| 🌸 Flowering | ~100 | Light cycles, smell, support |
-| 🎉 Harvest | ~110 | Timing, drying, curing |
-
-> The sim advances honestly and says what it is: **a teaching toy**. It never promises yield.
-
-### 🔀 Cross-Breed Playground Rules
-
-Pick two parents → the child averages their numbers → the result wears its label:
-*"a rough guess, not a promise"* · lineage draws as a glowing family tree (emerald roots,
-green/purple/gold orbs) · every effect explained in plain words with its fact-check status.
-
----
-
-## 🎮 25 · Gamification System — Full Spec
-
-### 🏆 The Seven Levels
-
-| Level | Name | XP |
-|:-----:|------|--:|
-| 1 | 🌱 Seedling | 0 |
-| 2 | 🌿 Sprout | — |
-| 3 | 🌳 Grower | — |
-| 4 | 🧑‍🌾 Cultivator | — |
-| 5 | 🔥 Green Sage | — |
-| 6 | 🧙 Guru | — |
-| 7 | 👑 **Reefer Legend** | 1200 |
-
-*(Middle thresholds tune with play-testing; the ends are fixed: start at zero, legend at 1200.)*
-
-### 🎖️ Badge Shelf (starter set)
-
-🏅 First Purchase · 🏡 Grow Room Designer · 🎯 Master Roller · 🔮 Glass Whisperer ·
-🧬 Strain Chef · 📚 Bookworm · 🎨 First Design · 🌱 First Grow Completed
-
-### 📜 Quest Shapes
-
-Daily · weekly · AI-generated · seasonal — smoke-scroll quests delivered in-world.
-**Community ladder:** Seedling → Sprout → Grower → Cultivator → Green Sage → Guru.
-
-### 🛡️ Anti-Cheat & Fairness
-
-Anomaly detection · bot filtering · reward-fraud prevention · ledger reversals on refunds ·
-**no rewarding unsafe consumption** · gamification intensity is user-controllable, with an
-opt-out that actually opts out.
-
----
-
-## 👑 26 · Membership — Tier Deep Dive
-
-| | 🌱 Seed Starter | 🔥 Master Grower | 👑 Ganjapreneur |
-|---|:---:|:---:|:---:|
-| Price | **$19/mo** | **$49/mo** | **$99/mo** |
-| Emblem | Seedling ring | Flaming leaf | Golden leaf-crown |
-| Door it fits | Grower | Grower + Creator | Ganjapreneur |
-| Shape | Learn the ropes | Go deeper, more tools | Business-grade depth |
-
-> ⚠️ Perk-by-perk entitlements get defined when the membership product is actually built —
-> this table locks names, prices, and emblems (all live on both sites today) and nothing it
-> can't prove. Selling a tier before its perks exist would break the checkout-honesty rule.
-
-### 🪙 Budz — Loyalty MVP Rules
-
-Earn **only** for verified actions · show the cash-equivalent, exclusions, and expiration
-before earning, not after · auditable ledger · reversals on refunds · no token/cash-out
-mechanics until the legal design exists.
-
-
----
-
-## 🗺️ 27 · The Page Universe — Full Inventory
-
-### 📚 The Core 87 (the family the live sitemap grew from)
-
-Home · AI Budtender · Strain Guides · Grow Guides · Membership · Rewards (Budz) · Community ·
-Glossary · Blog/Learn · About · FAQ · Contact · Privacy · Terms · Accessibility · Design
-Studio · Strain Builder · Marketplace · Consultation · Delivery · HustleZone · Chillout VR ·
-404 · Sitemap · Search · Strain Index · Reviews/Proof · Newsletter · Advertise · Cookie
-Policy · Affiliate Disclosure · Account · Shop · Cart · Checkout · Order Tracking ·
-Shipping & Returns · Digital Products · Lab Results (COAs) · Compliance · Do Not Sell ·
-Grow Room Designer (AR/VR) · Deals · Onboarding · Services · How It Works · Sustainability ·
-Refund Policy · Health Disclaimer · DMCA · Community Guidelines · Age Policy · Subscription
-Terms · Seller Terms · AI & Voice Data Policy · Press/Media · Wholesale · Careers ·
-Investors · Franchise/Licensing · Partners · Affiliate Program · Donate · Gift Cards ·
-Podcast · Videos · Forum · Events · Founders/Team · Author Pages · Dosing Guide · Recipes ·
-Grow Calendar · Customer Stories · Advocacy · Courses · Resources · API/Developers · Status ·
-Changelog · Waitlist · App Download · Help Center · Calculators · Size Guide · Warranty ·
-Contest Rules
-
-### 🌌 Where the Universe Actually Stands (verified counts)
-
-| Universe | Count | Status |
-|----------|:-----:|--------|
-| Live reeferdude.com sitemap | **86 URLs** | ✅ Live (IONOS app) |
-| Store repo sitemap | **321 URLs** | ✅ In repo, live on the store origin |
-| ReeferDude repo sitemap | **347 URLs** | 🟡 In repo — viewable via GitHub, NOT what the domain serves |
-| Generated page universe (Oct 31) | **523 pages** | 24 strains · 12 terpenes · 4 cannabinoids · 16 products · 26 glossary · 50 states + DC |
-
-### 🌊 The Expansion Waves (the dream map — built only as fast as evidence allows)
-
-Waves 2–10 in the master files add dashboards (member/creator/seller/vendor), trust &
-security centers, academies, creator economy hubs, agent orchestration, digital identity,
-governance, and finally the far-future "ecosystem command" layer — each wave inheriting the
-trust, AI, and knowledge layers of the one beneath it. **It is a map, not a promise** —
-Section 5's page-count rule governs every wave.
-
----
-
-## 📁 28 · Root Files Cookbook
-
-| File | Job | House spec |
-|------|-----|------------|
-| `robots.txt` | Crawler rules | All major search + AI crawlers Allowed · **its own domain's** sitemap line · zero accidental Disallows |
-| `sitemap.xml` | The page map | Real URLs only — never a route that 404s |
-| `ads.txt` | Ad-seller authorization | Exactly: `google.com, pub-4750157756501290, DIRECT, f08c47fec0942fa0` |
-| `llms.txt` | The AI knowledge directive | Who we are, what's verified, how to cite us |
-| `seo.txt` / `SEO.md` | Keyword clusters + voice-search rules | Mirrors Section 12 |
-| `aeo.txt` / `AEO.md` | Intent routing for answer engines | AI → marketplace → design → delivery |
-| `security.txt` | Responsible disclosure (RFC 9116) | Contact, scope, response expectations, expiry date kept current |
-| `humans.txt` | The credits file | Founders, stack, thanks |
-| `manifest.json` | PWA identity | Name, theme/background colors, full icon set, standalone display, shortcuts: AI Chat / Marketplace / Design Studio / Delivery Tracker |
-| `service-worker.js` | Offline engine | Cache-first shell · `/api/`, checkout & auth **never** cached · background sync for cart/analytics/preferences · versioned caches · push where consented |
-| `package.json` | Project manifest | Name, engines, scripts — lives in the repo, never served as a web page |
-| `requirements.txt` | Python sidecar deps | Only where a Python service actually exists (FastAPI lane) |
-| `.env` | Secrets | 🔴 **Never** in a repo, a page, or a chat. Keys live in secure storage only |
-
-> 📌 Verified live note: reeferdude.com already serves a real root-file set (manifest, sw.js,
-> security.txt at both paths, SEO.txt, AEO.txt) — the cookbook describes the *standard*;
-> Section 19 tracks the two known defects against it.
-
----
-
-## ♿ 29 · Accessibility & Inclusion Standard
-
-| Area | Standard |
-|------|----------|
-| 📏 Compliance target | WCAG 2.2 **AA** minimum · **AAA** for body text where achievable |
-| ⌨️ Keyboard | Full operation without a mouse · visible focus · arrows nudge, Enter/Space select, Esc retreats · focus never gets lost in the space |
-| 🔇 Motion | `prefers-reduced-motion` disables float, orbit, smoke, and particles — instantly, completely |
-| 🎙️ Voice | Every voice feature has permission states and a text twin; captions/transcripts for all spoken content |
-| 👁️ Vision | Contrast checked per palette pair · nothing meaningful carried by color alone · 200% zoom without breakage |
-| 🧏 Hearing | No information exists only as audio |
-| 🧠 Cognitive | Plain-language law (Section 8) · Calm mode · consistent placement · no timed traps |
-| 📱 Motor | Big targets, forgiving drag, hover-pause everywhere motion lives |
-| 🧪 Testing | Keyboard-only walkthrough · screen-reader pass · reduced-motion pass · mobile pass — every release, not once |
-
-> **The override rule, again:** accessibility beats aesthetics. Every time. A beautiful
-> space someone can't use is a locked door with nice paint.
-
----
-
-## 🔐 30 · Security, Privacy & Trust
-
-### 👥 Role Ladder (RBAC, from the system docs)
-
-Guest → Registered → Verified Adult → Creator → Vendor → Driver/Courier → AI Agent →
-Admin → Super Admin → Compliance Officer. Each role gets the **least** access that lets it
-do its job — including the AI agents, who hold permissions like employees, not master keys.
-
-| Practice | Rule |
-|----------|------|
-| 🔑 Auth | JWT/OAuth2-class sessions · hashed tokens only (the platform stores hashes, never raw) |
-| 📱 Device trust | Risk/trust scoring on new devices |
-| 🧾 Audit | Immutable logs on sensitive actions, tax/compliance events, and exports |
-| 🌍 Tax & compliance engine | Geo-tax, VAT/GST, cannabis surcharges — validated **before** a transaction approves |
-| 📴 Offline & sync | Encrypted local cache · queued orders · conflict resolution with user override + version rollback |
-| 🙈 Privacy | GDPR/CCPA posture · consent records as data · **never sell sensitive profiles** |
-| 🚨 Disclosure | `security.txt` current, with an expiry date someone owns |
-| 🗝️ Secrets | Environment-only, never in GitHub, never in browser code, never in chat |
-
----
-
-## 📊 31 · Analytics & The Owner Dashboard
-
-### 📈 Weekly Revenue Equations (reviewed weekly, not vibes)
-
-```text
-Qualified sessions × conversion rate × average order  =  expected revenue
-AI recommendations shown → clicked → acted on          =  assistant value
-Guides read → tool used → product matched              =  knowledge value
-```
-
-### 🖥️ The Monthly Owner Dashboard (one screen, the truth)
-
-| Tile | Shows |
-|------|-------|
-| 🚦 Traffic quality | Sessions by intent cluster (Section 13's five) |
-| 💰 Money loop | The Section 12 chain, stage by stage, with drop-offs |
-| 🤖 Assistant | Questions asked, verified-answer rate, handoffs to humans |
-| 👻 Ghost health | Supplier scores, blocked_non_eco count, exception-lane volume |
-| 📚 Knowledge | New verified facts, contested count, stale-fact reviews due |
-| ⚖️ Compliance | Blocks by lane and state — spikes mean the law moved |
-| 🏦 Business value | Owned audience size · repeat demand · content moat · commercial proof |
-
----
-
-## 📣 32 · Community & Content Engine
-
-### 📰 The Content Pillars
-
-| Pillar | Beat |
-|--------|------|
-| 📖 **Green Gospel** | The mythology, told straight (Section 21) |
-| 🔧 **Grow-Tech Chronicles** | Telemetry, builds, workbench stories |
-| 💼 **The Hustle Bloom** | Merchant stories, Ganjapreneur lessons |
-| 🧠 **Guru Knows** | Verified answers to real questions |
-| 🌱 **Grow Room** | Seasons, stages, harvests |
-| 🚫 **Cannabis Without the Bullshit** | Myth-busting, law changes in plain words |
-| 🏗️ **Build the Hub** | Building in public — the receipts |
-| 🔮 **Green Futures** | What's next, labeled as speculation |
-
-### ✍️ The Content Formula
-
-**Hook → Story → Knowledge → Insight → Action.** Every post, every page, every video.
-
-### 🚀 Launch Phases
-
-**Founding Circle** (invite-only first members) → **Rituals of the Green Grid** (recurring
-community beats) → **Enter the Grid** (public initiation) — community members are
-**Nodes**; referrals are plugs introducing plugs.
-
-| Rule | Why |
-|------|-----|
-| Hashtags: 1–3 brand + 2–5 topic | Signal, not spam |
-| Humor punches up or inward, never down | The brand protects its people |
-| Controversy stance: pro-information, pro-science, pro-agency, pro-responsibility | Trust is the moat |
-| The Guru is never presented as a lawyer, doctor, or endorser | Persona ≠ professional, ever |
-
----
-
-## 🥊 33 · Competitive Landscape
-
-| Player | What they are | Our difference |
-|--------|---------------|----------------|
-| Weedmaps | Discovery + menus | We're the *making and knowing* layer, not a menu board |
-| Leafly | Strain encyclopedia | Knowledge **plus** design, sourcing, and doing |
-| Eaze | Delivery | Delivery is one gated module here, not the whole company |
-| Flowhub / GrowFlow | Dispensary back-office | We serve growers, creators, and merchants — seed-to-smoke |
-| Shapeways / Etsy | Making & marketplaces | Cannabis-native, eco-gated, AI-guided end to end |
-| Generic AI chatbots | Talk | Ours is wired to verified knowledge, tools, and an approval ladder |
-
-> **The one-line position:** everyone else is a *place in* the maze. **We're the map,
-> the guide, and the workshop in one socket.**
-
----
-
-## ⚠️ 34 · Risk Register & Kill Criteria
-
-| Risk | Signal | Response |
-|------|--------|----------|
-| ⚖️ Federal law tightens (Dec 11 cap) | FDA lists publish; state flips | Compliance lanes already treat it as design input; product mix is Ray's call, made with live law |
-| 🏗️ Platform dependence (IONOS builder) | Credits exhausted — **already happened** | Rebuild on owned ground (the Gravity-Gone path); never again a hostage homepage |
-| 💳 Payments stay closed | All three shortlist processors decline | Affiliate + services + SaaS revenue carries the business; commerce waits |
-| 🔍 Google access blocked | Sign-in rejected (open since Oct 30) | Browser-dashboard route when Ray signs in; no invented metrics meanwhile |
-| 🌐 potgrowhub.com dark | SSL error since Oct 30 audit | Locate the holding IONOS login; until then the domain is parked value, not a promise |
-| 🧪 Loop doesn't convert | Pilot merchants churn; GRR < 90% | **Kill criterion:** stop scaling, fix or fold the loop — do not build wave 2 on a broken wave 1 |
-| 📄 Thin-content temptation | Page counts rising faster than verified facts | Section 5's rule is the kill switch: freeze generation, audit, prune |
-| 👥 Two-person bandwidth | Everything waits on two humans | Ruthless stage gates; automation only where the exception lane exists |
-
----
-
-<div align="center">
-
-### 🏷️ Keyword Index — The Whole Universe in One Line of Tags
-
-`cannabis ecosystem` · `AI budtender` · `seed to smoke` · `zero inventory` · `ghost commerce` ·
-`3D print on demand` · `print on demand` · `AR grow room` · `VR design studio` · `strain lab` ·
-`strain creator` · `terpene guide` `smell and flavor oils` · `grow blueprint` · `hemp shop` ·
-`eco-friendly sourcing` · `verified knowledge` · `compliance engine` · `merchant workspace` ·
-`Ganjapreneur` · `Gravity-Gone` · `The Socket` · `Green Grid` · `Budz rewards` · `KushCoin` ·
-`Franklin Ohio` · `Warren County` · `plug play puff repeat`
-
-<br/>
-
-**— END OF README —**
-
-*One document. All 34 sections. Nothing left in a drawer.*
-
-</div>
+This README consolidates the supplied ReeferDude/PotGrowHub vision and architecture notes. Some source material contains aspirational features, conflicting brand or age decisions, proposed integrations, and time-sensitive legal or domain status. Those items must be verified with the owner and authoritative sources before being treated as current facts. The 64-section structure is complete; implementation remains incremental and must be confirmed from code, tests, and production systems.
