@@ -1,1 +1,376 @@
-
+{
+  "$schema": "https://json.schemastore.org/web-manifest.json",
+  "name": "ReeferDude — The Universal Socket & AI Platform",
+  "short_name": "ReeferDude",
+  "description": "Next-generation spatial WebXR, AI Budtender, zero-inventory Ghost Commerce, and educational grow platform.",
+  "id": "com.reeferdude.app",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "any",
+  "background_color": "#0A0A0A",
+  "theme_color": "#00D26A",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": [
+    "lifestyle",
+    "utilities",
+    "education",
+    "shopping",
+    "entertainment",
+    "business",
+    "finance",
+    "productivity",
+    "social",
+    "graphics"
+  ],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "e84b3b5e-188b-4b2e-a123-reeferdude2026",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-monochrome.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "/icons/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Budtender Assistant",
+      "short_name": "AI Budtender",
+      "description": "Consult GanjaGuru for real-time personalized recommendations and education.",
+      "url": "/ai-budtender?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-budtender.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dream-It Studio",
+      "short_name": "Dream Studio",
+      "description": "Design custom gear, merchandise, and spatial 3D concepts.",
+      "url": "/studio?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-studio.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Strain Lab & Genetics",
+      "short_name": "Strain Lab",
+      "description": "Explore strain lineages, terpene profiles, and lab tests.",
+      "url": "/strain-lab?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-strainlab.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Grow Room Blueprint",
+      "short_name": "Grow Room",
+      "description": "Calculate equipment needs and plan grow environments.",
+      "url": "/grow-room?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-growroom.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ghost Commerce Catalog",
+      "short_name": "Ghost Store",
+      "description": "Zero-inventory eco accessories, print-on-demand, and automated sourcing catalog.",
+      "url": "/store?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-store.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Puff Quest Gamification",
+      "short_name": "Puff Quest",
+      "description": "Complete interactive learning challenges, earn XP, and unlock rewards.",
+      "url": "/puff-quest?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-puffquest.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Brain Library & Knowledge Base",
+      "short_name": "Brain Library",
+      "description": "Access evidence-backed plain-language cultivation guides and research.",
+      "url": "/brain-library?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-library.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "User Vault & Storage",
+      "short_name": "User Vault",
+      "description": "Manage saved 3D designs, grow logs, strain bookmarks, and preferences.",
+      "url": "/vault?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/icons/shortcut-vault.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-gravityless.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Spatial WebXR Gravity-Gone 3D Arrival Experience"
+    },
+    {
+      "src": "/screenshots/mobile-budtender.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Conversational AI Budtender Interface"
+    },
+    {
+      "src": "/screenshots/desktop-studio.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Dream-It Studio 3D Canvas & Product Customizer"
+    },
+    {
+      "src": "/screenshots/mobile-strainlab.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Interactive Terpene & Strain Lineage Explorer"
+    },
+    {
+      "src": "/screenshots/desktop-growroom.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Grow Room Calculator & Environmental Equipment Planner"
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+reeferdude",
+      "url": "/handle-protocol?target=%s"
+    },
+    {
+      "protocol": "web+potgrowhub",
+      "url": "/handle-protocol?target=%s"
+    },
+    {
+      "protocol": "web+strainlab",
+      "url": "/strain-lab?strain=%s"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.reeferdude.app",
+      "id": "com.reeferdude.app"
+    },
+    {
+      "platform": "webapp",
+      "url": "https://reeferdude.com/manifest.webmanifest"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/reeferdude-ai/id6500000000"
+    }
+  ],
+  "share_target": {
+    "action": "/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "media",
+          "accept": [
+            "image/*",
+            "text/plain",
+            "application/json",
+            "model/gltf-binary",
+            "model/gltf+json",
+            "audio/*"
+          ]
+        }
+      ]
+    }
+  },
+  "file_handlers": [
+    {
+      "action": "/studio/import",
+      "name": "3D Models & Presets",
+      "accept": {
+        "model/gltf-binary": [
+          ".glb"
+        ],
+        "model/gltf+json": [
+          ".gltf"
+        ],
+        "application/json": [
+          ".reefer",
+          ".pgh"
+        ]
+      },
+      "icons": [
+        {
+          "src": "/icons/file-model.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "name": "Strain of the Day",
+      "short_name": "Strain Widget",
+      "description": "Quick view of terpene profiles and strain lineages",
+      "tag": "strain-of-day",
+      "template": "widget-template",
+      "ms_ac_template": "/widgets/strain-of-day.json",
+      "data": "/widgets/strain-of-day-data.json",
+      "type": "text/html",
+      "auth": false,
+      "update_rate": 86400,
+      "icons": [
+        {
+          "src": "/icons/widget-strain.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "AI Budtender Quick Assist",
+      "short_name": "AI Assistant",
+      "description": "Instant conversational helper for cultivation and product advice",
+      "tag": "budtender-assistant",
+      "template": "widget-template-budtender",
+      "ms_ac_template": "/widgets/budtender.json",
+      "data": "/widgets/budtender-data.json",
+      "type": "text/html",
+      "auth": false,
+      "update_rate": 3600,
+      "icons": [
+        {
+          "src": "/icons/widget-budtender.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing_client_navigate",
+  "scope_extensions": [
+    {
+      "origin": "https://reeferdude.com"
+    },
+    {
+      "origin": "https://potgrowhub.store"
+    }
+  ]
+}
