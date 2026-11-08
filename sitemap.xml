@@ -1,1 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://reeferdude.com/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/hero-spatial-webxr.webp</image:loc>
+      <image:title>ReeferDude Universal Socket &amp; Spatial WebXR Interface</image:title>
+      <image:caption>Interactive Gravity-Gone visual engine and platform gateway</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/ai-budtender</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/ai-budtender-multimodal.webp</image:loc>
+      <image:title>GanjaGuru AI Budtender Assistant</image:title>
+      <image:caption>Multimodal voice AI assistance and personalized recommendations</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/studio</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/dream-it-studio-3d.webp</image:loc>
+      <image:title>Dream-It Studio 3D Canvas</image:title>
+      <image:caption>Spatial 3D gear design and print-on-demand customizer</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/strain-lab</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/strain-lab-terpenes.webp</image:loc>
+      <image:title>Strain Lab Terpene &amp; Lineage Engine</image:title>
+      <image:caption>Provenance-tracked genetics, cannabinoid profiles, and strain lineage</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/grow-room</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/grow-room-planner.webp</image:loc>
+      <image:title>Grow Room Environmental Planner</image:title>
+      <image:caption>Precision cultivation equipment and environmental planning calculator</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/store</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/ghost-commerce-store.webp</image:loc>
+      <image:title>Ghost Commerce Zero-Inventory Catalog</image:title>
+      <image:caption>Automated eco-friendly merchandise and accessory procurement</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/puff-quest</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/brain-library</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://reeferdude.com/vault</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
+  <url>
+    <loc>https://reeferdude.com/blueprint-engine</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/kush-courier</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/consultation</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/community</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/business-hub</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/learn/best-seo-prompts</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://reeferdude.com/images/best-seo-prompts-guide.webp</image:loc>
+      <image:title>Best SEO &amp; AEO Prompts Guide</image:title>
+      <image:caption>30+ AI Prompts to Improve Keyword Research, Content, and Search Rankings</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/about</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/contact</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/faq</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/privacy</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://reeferdude.com/terms</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
